@@ -1,3 +1,8 @@
+/**
+ * WishList main class
+ * @Author Mantas Visockis
+ */
+
 package com.wishlist.wish;
 
 import javafx.application.Application;
@@ -19,7 +24,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("wishlist2.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("wishlist.fxml"));
         primaryStage.setTitle("Wishlist");
         Scene scene = new Scene(root, 1080, 720);
         scene.getStylesheets().add("Viper.css");

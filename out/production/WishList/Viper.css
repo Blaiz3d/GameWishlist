@@ -1,0 +1,170 @@
+/*---------------------------------Main Screen CSS---------------------------------------*/
+.root{
+	-fx-background-color: #0e0f11;
+}
+/*****************************************************************************************
+ *																						 *
+ *									TabPane Styling										 *
+ *																						 *
+ *****************************************************************************************/
+/*.tab{
+	-fx-pref-width: 500;
+	-fx-pref-height: 60;
+}*/
+
+/*****************************************************************************************
+ *																						 *
+ *									TextField Styling									 *
+ *																						 *
+ *****************************************************************************************/
+.jfx-text-field{
+	-fx-font-size: 25;
+	-fx-background-color: #27282E;
+	-fx-text-fill: #C7C5C2;
+}
+
+.jfx-text-field:focused{
+	-fx-background-color: #555866;
+}
+
+.jfx-text-field .context-menu{
+	-fx-font-size: 12;
+}
+
+/*****************************************************************************************
+ *																						 *
+ *									ScrollBar Styling									 *
+ *																						 *
+ *****************************************************************************************/
+.scroll-bar:vertical{
+	-fx-padding: 1 2 5 2;
+	-fx-border-width: 0;
+}
+
+.scroll-bar{
+	-fx-border-color: red;
+}
+
+.scroll-bar:vertical > .track-background, .scroll-bar:horizontal > .track-background {
+    -fx-background-color: #232323;
+    -fx-background-insets: 0.0;
+    -fx-border-width: 0;
+}
+
+.scroll-bar:vertical > .thumb, .scroll-bar:horizontal > .thumb {
+    -fx-background-color: #77B901;
+    -fx-background-insets: 0.0;
+    -fx-background-radius: 3.0;
+    -fx-border-width: 0;
+}
+
+/* Up- and Down-Button Padding */
+.scroll-bar:vertical > .increment-button, .scroll-bar:vertical > .decrement-button {
+    -fx-padding: 3 2 5 2;
+    -fx-border-width: 0;
+}
+
+/* Left- and Right-Button Padding */
+.scroll-bar:horizontal > .increment-button, .scroll-bar:horizontal > .decrement-button {
+    -fx-padding: 2 5 2 5;
+    -fx-border-width: 0;
+}
+
+.scroll-bar > .increment-button, .scroll-bar > .decrement-button, .scroll-bar:hover > .increment-button, .scroll-bar:hover > .decrement-button {
+    -fx-background-color: transparent;
+    -fx-border-width: 0;
+}
+
+.scroll-bar > .increment-button > .increment-arrow, .scroll-bar > .decrement-button > .decrement-arrow {
+    -fx-background-color: rgb(150.0, 150.0, 150.0);
+    -fx-border-width: 0;
+}
+
+/* Up Arrow */
+.scroll-bar:vertical > .increment-button > .increment-arrow {
+    -fx-shape: "M298 426h428l-214 214z";
+    -fx-border-width: 0;
+}
+
+/* Down Arrow */
+.scroll-bar:vertical > .decrement-button > .decrement-arrow {
+    -fx-shape: "M298 598l214-214 214 214h-428z";
+    -fx-border-width: 0;
+}
+
+/* Right Arrow */    
+.scroll-bar:horizontal > .increment-button > .increment-arrow {
+    -fx-shape: "M0 428l0 -428l214 214l-214 214z";
+    -fx-border-width: 0;
+}
+
+/* Left Arrow */
+.scroll-bar:horizontal > .decrement-button > .decrement-arrow {
+    -fx-shape: "M214 0l0 428l-214 -214l214 -214z";
+    -fx-border-width: 0;
+}
+
+/*****************************************************************************************
+ *																						 *
+ *									ScrollPane Styling									 *
+ *																						 *
+ *****************************************************************************************/
+.scroll-pane {
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+}
+
+.scroll-pane:focused {
+    -fx-background-insets: 0;
+}
+
+.scroll-pane .corner {
+    -fx-background-insets: 0;
+}
+
+/*****************************************************************************************
+ *																						 *
+ *								  TreeTableView Styling									 *
+ *																						 *
+ *****************************************************************************************/
+.jfx-tree-table-view{
+ 	-fx-border-width: 0;
+ 	-fx-background-color: #0e0f11;
+ 	-fx-text-background-color: #77B901;
+
+}
+
+.jfx-tree-table-view .column-header-background{
+    -fx-border-width: 0;
+    -fx-background-color: linear-gradient(#25272d, #0e0f11, #25272d);
+
+}
+
+.jfx-tree-table-view .column-header{
+ 	-fx-border-width: 0;
+}
+
+.tree-table-row-cell {
+    -fx-background-color: #26282d;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+.tree-table-row-cell:selected {
+    -fx-background-color: #466d00;
+    -fx-background-insets: 0, 1, 2;
+}
+
+.tree-table-row-cell:odd {
+    -fx-background-color: #0e0f11;
+    -fx-background-insets: 0, 0 0 1 0;
+}
+
+.tree-table-row-cell:selected:odd {
+    -fx-background-color: #466d00;
+    -fx-background-insets: 0, 1, 2;
+}
+
+/*.column-header .context-menu{
+	visibility: hidden;
+}*/

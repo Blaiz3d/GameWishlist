@@ -1,19 +1,17 @@
+/**
+ * Manages the GUI element functionality
+ */
+
 package com.wishlist.wish;
 
 import com.jfoenix.controls.*;
 import com.jfoenix.controls.datamodels.treetable.RecursiveTreeObject;
-import javafx.event.Event;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.scene.control.MenuItem;
-import javafx.scene.input.ContextMenuEvent;
 
-import java.awt.*;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.io.UnsupportedEncodingException;
-import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URL;
 import java.text.DateFormat;
@@ -51,7 +49,7 @@ public class ControllerMain implements Initializable{
         JFXTreeTableColumn<MyGame, String> dateAdded = new JFXTreeTableColumn<>("Date Added");
         dateAdded.setCellValueFactory(param -> param.getValue().getValue().dateAdded);
         // -----------------------------------------------------------------------------------------------------------
-        final TreeItem<MyGame> root = new RecursiveTreeItem<MyGame>(getGamesMy(), RecursiveTreeObject::getChildren);
+        final TreeItem<MyGame> root = new RecursiveTreeItem<>(getGamesMy(), RecursiveTreeObject::getChildren);
 
         treeView.getColumns().setAll(title, dateAdded);
         treeView.setRoot(root);
@@ -62,7 +60,7 @@ public class ControllerMain implements Initializable{
         JFXTreeTableColumn<Game, String> titleAll = new JFXTreeTableColumn<>("Title");
         titleAll.setCellValueFactory(param -> param.getValue().getValue().title);
         // -----------------------------------------------------------------------------------------------------------
-        final TreeItem<Game> rootAll = new RecursiveTreeItem<Game>(getGamesAll(), RecursiveTreeObject::getChildren);
+        final TreeItem<Game> rootAll = new RecursiveTreeItem<>(getGamesAll(), RecursiveTreeObject::getChildren);
 
         treeViewAll.getColumns().setAll(titleAll);
         treeViewAll.setRoot(rootAll);
@@ -108,13 +106,6 @@ public class ControllerMain implements Initializable{
             TreeTableColumn<Game, ?> col = treeViewAll.getColumns().get(treeViewAll.getColumns().size()-1);
             col.setPrefWidth(treeViewAll.getWidth() / 1.02 );
         });
-
-        /**
-         * Removes right-click context menu from the search bar
-         */
-
-        treeView.addEventFilter(ContextMenuEvent.CONTEXT_MENU_REQUESTED, Event::consume);
-        //treeViewAll.addEventFilter(ContextMenuEvent.CONTEXT_MENU_REQUESTED, Event::consume);
 
         /**
          * Creates the context menu for games in the treeView
@@ -167,7 +158,6 @@ public class ControllerMain implements Initializable{
                 treeView.getSelectionModel().clearSelection();
                 removeGame(gameToDelete);
             });
-
             return row;
         });
 
@@ -225,7 +215,6 @@ public class ControllerMain implements Initializable{
                     e.printStackTrace();
                 }
             });
-
             return row;
         });
     }

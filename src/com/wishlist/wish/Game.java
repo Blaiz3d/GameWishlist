@@ -1,3 +1,7 @@
+/**
+ * Class for game in the "All Games" list
+ */
+
 package com.wishlist.wish;
 
 import com.jfoenix.controls.datamodels.treetable.RecursiveTreeObject;

@@ -1,3 +1,7 @@
+/**
+ * Class for resource loading
+ * Work in progress
+ */
 package com.wishlist.wish;
 
 import java.awt.*;
@@ -6,6 +10,11 @@ import java.io.IOException;
 
 public class resourceManager {
 
+    /**
+     * Loads the custom font
+     * @throws IOException
+     * @throws FontFormatException
+     */
     public static void loadFont() throws IOException, FontFormatException
     {
         GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment();
