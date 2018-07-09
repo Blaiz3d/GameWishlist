@@ -37,7 +37,6 @@ public class Main extends Application {
         writeToFile();
     }
 
-
     public static void main(String[] args) throws IOException, FontFormatException
     {
         downloadGameDatabase();
