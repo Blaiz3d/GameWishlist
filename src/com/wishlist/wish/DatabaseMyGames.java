@@ -95,6 +95,26 @@ public class DatabaseMyGames
     }
 
     /**
+     * Checks wheather the game is already in the wishlist
+     */
+    public static boolean checkWishlist(String appid) {
+        boolean exists = false;
+
+        if (game.size() > 0)
+        {
+                for (int i = 0; i < game.size(); i++)
+                {
+                    if (game.get(i).getAppid().equals(appid))
+                    {
+                        exists = true;
+                        break;
+                    }
+                }
+            }
+        return exists;
+    }
+
+    /**
      * @return the list of wish listed games
      */
     public static ObservableList<MyGame> getGamesMy()

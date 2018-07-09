@@ -189,17 +189,31 @@ public class ControllerMain implements Initializable{
             };
 
             /**
-             * Adds the selected game to the wishlist
+             * Checks if the game is in the wish list and adds it if it's not
              */
             item1.setOnAction(event -> {
                 String titleSelected = treeViewAll.getSelectionModel().getSelectedItem().getValue().getTitle();
                 String appid = treeViewAll.getSelectionModel().getSelectedItem().getValue().getAppid();
 
-                DateFormat dateFormat = new SimpleDateFormat("dd/MM/YYYY");
-                Date date = new Date();
-                String currentDate = dateFormat.format(date);
+                boolean gameExists = checkWishlist(appid);
 
-                addToMyGames(titleSelected, appid, currentDate);
+                if (!gameExists)
+                {
+                    DateFormat dateFormat = new SimpleDateFormat("dd/MM/YYYY");
+                    Date date = new Date();
+                    String currentDate = dateFormat.format(date);
+
+                    addToMyGames(titleSelected, appid, currentDate);
+                }
+                else
+                {
+                    Alert alert = new Alert(Alert.AlertType.NONE, "Game already in the wish list", ButtonType.OK);
+                    alert.showAndWait();
+
+                    if (alert.getResult() == ButtonType.OK) {
+                        alert.close();
+                    }
+                }
             });
 
             /**
