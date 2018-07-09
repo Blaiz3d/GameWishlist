@@ -1,8 +1,11 @@
+/**
+ * Stores and manages the wish listed games
+ */
+
 package com.wishlist.wish;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-import javafx.scene.control.TreeItem;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -14,11 +17,18 @@ public class DatabaseMyGames
 {
     private static ObservableList<MyGame> game = FXCollections.observableArrayList();
 
+    /**
+     * Adds a wish listed game to the List
+     */
     public static void addToMyGames(String title, String appid, String currentDate)
     {
         game.add(new MyGame(title, appid, currentDate));
     }
 
+    /**
+     *
+     * Removes a game from the wish list
+     */
     public static void removeGame(MyGame row )
     {
         for (int i = 0; i < game.size(); i++)
@@ -30,6 +40,11 @@ public class DatabaseMyGames
         }
     }
 
+    /**
+     * Saves the wish listed games to a file
+     * @throws FileNotFoundException
+     * @throws UnsupportedEncodingException
+     */
     public static void writeToFile() throws FileNotFoundException, UnsupportedEncodingException
     {
         PrintWriter writer = new PrintWriter("wishlist.txt", "UTF-8");
@@ -41,6 +56,9 @@ public class DatabaseMyGames
         writer.close();
     }
 
+    /**
+     * Loads the wish listed games from a file
+     */
     public static void readFromFile()
     {
         File file = new File("wishlist.txt");
@@ -76,10 +94,11 @@ public class DatabaseMyGames
         }
     }
 
+    /**
+     * @return the list of wish listed games
+     */
     public static ObservableList<MyGame> getGamesMy()
     {
         return game;
     }
-
-    //todo: write and load from file
 }

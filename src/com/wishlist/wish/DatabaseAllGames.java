@@ -1,5 +1,5 @@
 /**
- * Manages the download and loading of all of the steam games
+ * Stores, downloads and manages all of the games (not on the wish list)
  */
 
 package com.wishlist.wish;
@@ -80,7 +80,6 @@ public class DatabaseAllGames
     }
 
     /**
-     *
      * @return the list of all loaded games
      */
     public static ObservableList<Game> getGamesAll()
