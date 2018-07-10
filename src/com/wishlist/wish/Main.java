@@ -6,6 +6,7 @@
 package com.wishlist.wish;
 
 import javafx.application.Application;
+import javafx.application.Platform;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -24,17 +25,30 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("wishlist.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("../resources/fxml/wishlist.fxml"));
         primaryStage.setTitle("Wishlist");
         Scene scene = new Scene(root, 1080, 720);
-        scene.getStylesheets().add("Viper.css");
+        scene.getStylesheets().add("com/wishlist/resources/css/Viper.css");
         primaryStage.setScene(scene);
         primaryStage.setMaximized(true);
         primaryStage.show();
+
+        primaryStage.setOnCloseRequest(event -> {
+            try {
+                writeToFile();
+            } catch (FileNotFoundException e) {
+                e.printStackTrace();
+            } catch (UnsupportedEncodingException e) {
+                e.printStackTrace();
+            }
+            Platform.exit();
+            System.exit(0);
+        });
     }
 
     public void stop() throws FileNotFoundException, UnsupportedEncodingException {
         writeToFile();
+        System.exit(0);
     }
 
     public static void main(String[] args) throws IOException, FontFormatException
@@ -56,11 +70,11 @@ public class Main extends Application {
 //todo: Colour code games based on date added
 //todo: Do some css styling
 //todo: Add links to quickly open main game sites (Steam, origin, etc.);
-//todo: Add a search bar for the wish listed games
 //todo: Add a custom font
 
 //Bugfixes
 //todo: Remove context menu from the headers of TreeTableViews
+//todo: Find a way to unfocus context menus when not hovering over context menu
 
 //Future todos
 //todo: Add game images alongside the titles

@@ -8,9 +8,13 @@ import com.jfoenix.controls.*;
 import com.jfoenix.controls.datamodels.treetable.RecursiveTreeObject;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.MenuItem;
+import javafx.stage.Stage;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
@@ -35,15 +39,23 @@ public class ControllerMain implements Initializable{
     @FXML
     private JFXTextField searchField;
     @FXML
+    private JFXTextField searchFieldMy;
+    @FXML
     private JFXButton button1;
     @FXML
     private JFXButton button2;
 
     //FXML Methods
     @FXML
-    void addCustomGame(ActionEvent event)
+    void addCustomGame(ActionEvent event) throws IOException
     {
-
+        Parent root = FXMLLoader.load(getClass().getResource("../resources/fxml/customGame.fxml"));
+        Stage stage = new Stage();
+        stage.setTitle("Add a custom game");
+        Scene scene = new Scene(root);
+        scene.getStylesheets().add("com/wishlist/resources/css/Viper.css");
+        stage.setScene(scene);
+        stage.show();
     }
 
     @FXML
@@ -101,6 +113,15 @@ public class ControllerMain implements Initializable{
         treeViewAll.setRoot(rootAll);
         treeViewAll.setShowRoot(false);
         // -----------------------------------------------------------------------------------------------------------
+
+        /**
+         * Filters wish listed games by the text typed in the search field
+         */
+        searchFieldMy.textProperty().addListener((observable, oldValue, newValue) ->
+                treeView.setPredicate(gameTreeItem -> {
+                    Boolean flag = gameTreeItem.getValue().title.getValue().toLowerCase().contains(newValue.toLowerCase());
+                    return flag;
+                }));
 
         /**
          * Filters all games by the text typed in the search field
@@ -173,16 +194,17 @@ public class ControllerMain implements Initializable{
              * Opens the steamstore page for the selected app in the treeView
              */
             item1.setOnAction(event -> {
-                String appid = treeView.getSelectionModel().getSelectedItem().getValue().getAppid();
                 String isSteam = treeView.getSelectionModel().getSelectedItem().getValue().getIsSteam();
                 try {
                     if (isSteam.equals("y"))
                     {
+                        String appid = treeView.getSelectionModel().getSelectedItem().getValue().getAppid();
                         java.awt.Desktop.getDesktop().browse(new java.net.URI("https://store.steampowered.com/app/" + appid));
                     }
                     else
                     {
                         String titleToSearch = treeView.getSelectionModel().getSelectedItem().getValue().getTitle();
+                        titleToSearch = titleToSearch.replaceAll(" ", "+");
                         java.awt.Desktop.getDesktop().browse(new java.net.URI("https://www.google.com/search?q=" + titleToSearch));
                     }
                 } catch (IOException e) {
@@ -238,12 +260,12 @@ public class ControllerMain implements Initializable{
              */
             item1.setOnAction(event -> {
                 String titleSelected = treeViewAll.getSelectionModel().getSelectedItem().getValue().getTitle();
-                String appid = treeViewAll.getSelectionModel().getSelectedItem().getValue().getAppid();
 
-                boolean gameExists = checkWishlistIfExists(appid);
+                boolean gameExists = checkWishlistIfExists(titleSelected);
 
                 if (!gameExists)
                 {
+                    String appid = treeViewAll.getSelectionModel().getSelectedItem().getValue().getAppid();
                     DateFormat dateFormat = new SimpleDateFormat("dd/MM/YYYY");
                     Date date = new Date();
                     String currentDate = dateFormat.format(date);

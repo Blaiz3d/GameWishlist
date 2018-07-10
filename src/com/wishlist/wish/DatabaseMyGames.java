@@ -56,7 +56,7 @@ public class DatabaseMyGames
      */
     public static void writeToFile() throws FileNotFoundException, UnsupportedEncodingException
     {
-        PrintWriter writer = new PrintWriter("wishlist.txt", "UTF-8");
+        PrintWriter writer = new PrintWriter("src/com/wishlist/resources/database/wishlist.txt", "UTF-8");
         for (int i = 0; i < game.size(); i++)
         {
             writer.print(game.get(i).getTitle() + "," + game.get(i).getAppid() + "," + game.get(i).getDateAdded() + "," + game.get(i).getIsSteam() + "\n");
@@ -70,7 +70,7 @@ public class DatabaseMyGames
      */
     public static void readFromFile()
     {
-        File file = new File("wishlist.txt");
+        File file = new File("src/com/wishlist/resources/database/wishlist.txt");
         try
         {
             Scanner input = new Scanner(file);
@@ -122,14 +122,14 @@ public class DatabaseMyGames
     /**
      * Checks wheather the game is already in the wishlist
      */
-    public static boolean checkWishlistIfExists(String appid) {
+    public static boolean checkWishlistIfExists(String title) {
         boolean exists = false;
 
         if (game.size() > 0)
         {
                 for (int i = 0; i < game.size(); i++)
                 {
-                    if (game.get(i).getAppid().equals(appid))
+                    if (game.get(i).getTitle().equals(title))
                     {
                         exists = true;
                         break;
