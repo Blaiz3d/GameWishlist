@@ -63,7 +63,7 @@
                      <content>
                         <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                            <children>
-                              <JFXTextField fx:id="searchField" layoutX="54.0" layoutY="27.0" prefHeight="42.0" prefWidth="853.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0">
+                              <JFXTextField fx:id="searchField" layoutX="54.0" layoutY="27.0" prefHeight="42.0" prefWidth="853.0" promptText="Search" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0">
                                  <padding>
                                     <Insets left="25.0" right="25.0" />
                                  </padding></JFXTextField>

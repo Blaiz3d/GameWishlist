@@ -174,8 +174,17 @@ public class ControllerMain implements Initializable{
              */
             item1.setOnAction(event -> {
                 String appid = treeView.getSelectionModel().getSelectedItem().getValue().getAppid();
+                String isSteam = treeView.getSelectionModel().getSelectedItem().getValue().getIsSteam();
                 try {
-                    java.awt.Desktop.getDesktop().browse(new java.net.URI("https://store.steampowered.com/app/" + appid));
+                    if (isSteam.equals("y"))
+                    {
+                        java.awt.Desktop.getDesktop().browse(new java.net.URI("https://store.steampowered.com/app/" + appid));
+                    }
+                    else
+                    {
+                        String titleToSearch = treeView.getSelectionModel().getSelectedItem().getValue().getTitle();
+                        java.awt.Desktop.getDesktop().browse(new java.net.URI("https://www.google.com/search?q=" + titleToSearch));
+                    }
                 } catch (IOException e) {
                     e.printStackTrace();
                 } catch (URISyntaxException e) {
@@ -238,8 +247,9 @@ public class ControllerMain implements Initializable{
                     DateFormat dateFormat = new SimpleDateFormat("dd/MM/YYYY");
                     Date date = new Date();
                     String currentDate = dateFormat.format(date);
+                    boolean isSteam = true;
 
-                    addToMyGames(titleSelected, appid, currentDate);
+                    addToMyGames(titleSelected, appid, currentDate, isSteam);
                 }
                 else
                 {
