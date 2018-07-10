@@ -2,20 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/wishlist/wish/ControllerCustomGame.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/database.json" afterPath="$PROJECT_DIR$/database.json" />
-      <change beforePath="$PROJECT_DIR$/out/production/WishList/Viper.css" afterPath="$PROJECT_DIR$/out/production/WishList/Viper.css" />
-      <change beforePath="$PROJECT_DIR$/out/production/WishList/com/wishlist/wish/ControllerMain$2.class" afterPath="$PROJECT_DIR$/out/production/WishList/com/wishlist/wish/ControllerMain$2.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/WishList/com/wishlist/wish/ControllerMain.class" afterPath="$PROJECT_DIR$/out/production/WishList/com/wishlist/wish/ControllerMain.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/WishList/com/wishlist/wish/DatabaseMyGames.class" afterPath="$PROJECT_DIR$/out/production/WishList/com/wishlist/wish/DatabaseMyGames.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/WishList/com/wishlist/wish/MyGame.class" afterPath="$PROJECT_DIR$/out/production/WishList/com/wishlist/wish/MyGame.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/WishList/com/wishlist/wish/wishlist.fxml" afterPath="$PROJECT_DIR$/out/production/WishList/com/wishlist/wish/wishlist.fxml" />
-      <change beforePath="$PROJECT_DIR$/src/Viper.css" afterPath="$PROJECT_DIR$/src/Viper.css" />
+      <change beforePath="$PROJECT_DIR$/database.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/WishList/Viper.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/WishList/com/wishlist/resources/fonts/Abel-Regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/WishList/com/wishlist/wish/ControllerMain$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/WishList/com/wishlist/wish/ControllerMain$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/WishList/com/wishlist/wish/ControllerMain.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/WishList/com/wishlist/wish/DatabaseAllGames.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/WishList/com/wishlist/wish/DatabaseMyGames.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/WishList/com/wishlist/wish/Main.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/WishList/com/wishlist/wish/no treeviews.fxml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/WishList/com/wishlist/wish/resourceManager.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/WishList/com/wishlist/wish/two treeview, buttons.fxml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/WishList/com/wishlist/wish/wishlist.fxml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Viper.css" afterPath="$PROJECT_DIR$/src/com/wishlist/resources/css/Viper.css" />
+      <change beforePath="$PROJECT_DIR$/src/com/wishlist/resources/fonts/Abel-Regular.ttf" afterPath="$PROJECT_DIR$/src/com/wishlist/resources/font/Abel-Regular.ttf" />
       <change beforePath="$PROJECT_DIR$/src/com/wishlist/wish/ControllerMain.java" afterPath="$PROJECT_DIR$/src/com/wishlist/wish/ControllerMain.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/wishlist/wish/DatabaseAllGames.java" afterPath="$PROJECT_DIR$/src/com/wishlist/wish/DatabaseAllGames.java" />
       <change beforePath="$PROJECT_DIR$/src/com/wishlist/wish/DatabaseMyGames.java" afterPath="$PROJECT_DIR$/src/com/wishlist/wish/DatabaseMyGames.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/wishlist/wish/MyGame.java" afterPath="$PROJECT_DIR$/src/com/wishlist/wish/MyGame.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/wishlist/wish/wishlist.fxml" afterPath="$PROJECT_DIR$/src/com/wishlist/wish/wishlist.fxml" />
-      <change beforePath="$PROJECT_DIR$/wishlist.txt" afterPath="$PROJECT_DIR$/wishlist.txt" />
+      <change beforePath="$PROJECT_DIR$/src/com/wishlist/wish/Main.java" afterPath="$PROJECT_DIR$/src/com/wishlist/wish/Main.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/wishlist/wish/no treeviews.fxml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com/wishlist/wish/resourceManager.java" afterPath="$PROJECT_DIR$/src/com/wishlist/wish/resourceManager.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/wishlist/wish/two treeview, buttons.fxml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com/wishlist/wish/wishlist.fxml" afterPath="$PROJECT_DIR$/src/com/wishlist/resources/fxml/wishlist.fxml" />
+      <change beforePath="$PROJECT_DIR$/wishlist.txt" afterPath="" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,44 +85,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/Main.java">
+      <file leaf-file-name="ControllerCustomGame.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/ControllerCustomGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="26" column="70" lean-forward="false" selection-start-line="26" selection-start-column="70" selection-end-line="26" selection-end-column="70" />
+            <state relative-caret-position="238">
+              <caret line="39" column="84" lean-forward="false" selection-start-line="39" selection-start-column="84" selection-end-line="39" selection-end-column="84" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ControllerMain.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ControllerMain.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/ControllerMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="118" column="63" lean-forward="false" selection-start-line="118" selection-start-column="63" selection-end-line="118" selection-end-column="63" />
-              <folding>
-                <element signature="method#enableFilterButton#0;class#ControllerMain#0" expanded="false" />
-                <element signature="e#3575#3767#0" expanded="false" />
-                <element signature="e#4383#4766#0" expanded="false" />
-                <element signature="e#4962#5187#0" expanded="false" />
-                <element signature="e#7947#10576#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DatabaseMyGames.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/DatabaseMyGames.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-184">
-              <caret line="61" column="122" lean-forward="false" selection-start-line="61" selection-start-column="122" selection-end-line="61" selection-end-column="122" />
+            <state relative-caret-position="411">
+              <caret line="277" column="20" lean-forward="false" selection-start-line="277" selection-start-column="20" selection-end-line="282" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3801#3802#0" expanded="true" />
-                <element signature="e#3828#3829#0" expanded="true" />
+                <element signature="method#enableFilterButton#0;class#ControllerMain#0" expanded="false" />
+                <element signature="e#4111#4303#0" expanded="false" />
+                <element signature="e#4523#4715#0" expanded="false" />
+                <element signature="e#5331#5714#0" expanded="false" />
+                <element signature="e#5910#6135#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -119,9 +117,34 @@
       <file leaf-file-name="MyGame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/MyGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="42" column="29" lean-forward="false" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+            <state relative-caret-position="391">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding>
+                <element signature="e#784#785#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DatabaseAllGames.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/DatabaseAllGames.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="71">
+              <caret line="41" column="79" lean-forward="false" selection-start-line="41" selection-start-column="79" selection-end-line="41" selection-end-column="79" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DatabaseMyGames.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/DatabaseMyGames.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="757">
+              <caret line="148" column="1" lean-forward="false" selection-start-line="148" selection-start-column="1" selection-end-line="148" selection-end-column="1" />
+              <folding>
+                <element signature="e#3873#3874#0" expanded="true" />
+                <element signature="e#3900#3901#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -166,14 +189,15 @@
         <option value="$PROJECT_DIR$/database.json" />
         <option value="$PROJECT_DIR$/src/com/wishlist/wish/StretchedTabPane.java" />
         <option value="$PROJECT_DIR$/src/com/wishlist/wish/Database.java" />
-        <option value="$PROJECT_DIR$/src/com/wishlist/wish/DatabaseAllGames.java" />
         <option value="$PROJECT_DIR$/src/com/wishlist/wish/Game.java" />
         <option value="$PROJECT_DIR$/src/com/wishlist/wish/resourceManager.java" />
         <option value="$PROJECT_DIR$/src/com/wishlist/wish/wishlist.fxml" />
-        <option value="$PROJECT_DIR$/src/com/wishlist/wish/Main.java" />
         <option value="$PROJECT_DIR$/src/com/wishlist/wish/MyGame.java" />
-        <option value="$PROJECT_DIR$/src/com/wishlist/wish/DatabaseMyGames.java" />
+        <option value="$PROJECT_DIR$/src/com/wishlist/wish/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/wishlist/wish/DatabaseAllGames.java" />
         <option value="$PROJECT_DIR$/src/com/wishlist/wish/ControllerMain.java" />
+        <option value="$PROJECT_DIR$/src/com/wishlist/wish/DatabaseMyGames.java" />
+        <option value="$PROJECT_DIR$/src/com/wishlist/wish/ControllerCustomGame.java" />
       </list>
     </option>
   </component>
@@ -226,13 +250,6 @@
               <item name="WishList" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="wishlist" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WishList" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WishList" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="wishlist" type="462c0819:PsiDirectoryNode" />
               <item name="wish" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -264,11 +281,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Failai\Projects\WishList\src\com\wishlist\resources\css" />
+      <recent name="D:\Failai\Projects\WishList\src\com\wishlist\resources\fxml" />
       <recent name="D:\Failai\Projects\WishList\src\com\wishlist\resources\fonts" />
       <recent name="D:\Failai\Projects\WishList\src\com\wishlist\wish" />
       <recent name="D:\Failai\Projects\WishList\src\com\wishlist\gameIcons" />
-      <recent name="D:\Failai\Projects\WishList\src" />
-      <recent name="D:\Failai\Projects\WishList\lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -481,38 +498,38 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32790446" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32790446" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2153518" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995657" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995657" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -524,7 +541,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -557,8 +574,8 @@
         <state relative-caret-position="306">
           <caret line="31" column="17" lean-forward="false" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -595,7 +612,7 @@
           <folding>
             <element signature="imports" expanded="false" />
             <element signature="e#750#751#0" expanded="false" />
-            <element signature="e#784#785#0" expanded="false" />
+            <element signature="e#784#785#0" expanded="true" />
             <element signature="e#820#821#0" expanded="false" />
             <element signature="e#854#855#0" expanded="false" />
             <element signature="e#894#895#0" expanded="false" />
@@ -611,8 +628,8 @@
           <folding>
             <element signature="n#!!doc" expanded="false" />
             <element signature="imports" expanded="false" />
-            <element signature="e#2563#2564#0" expanded="false" />
-            <element signature="e#2590#2591#0" expanded="false" />
+            <element signature="e#2635#2636#0" expanded="false" />
+            <element signature="e#2662#2663#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -622,11 +639,12 @@
         <state relative-caret-position="2720">
           <caret line="182" column="18" lean-forward="false" selection-start-line="182" selection-start-column="12" selection-end-line="182" selection-end-column="18" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#enableFilterButton#0;class#ControllerMain#0" expanded="false" />
-            <element signature="e#3575#3767#0" expanded="false" />
-            <element signature="e#4383#4766#0" expanded="false" />
-            <element signature="e#4962#5187#0" expanded="false" />
-            <element signature="e#7947#10576#0" expanded="false" />
+            <element signature="e#4111#4303#0" expanded="false" />
+            <element signature="e#4523#4715#0" expanded="false" />
+            <element signature="e#5331#5714#0" expanded="false" />
+            <element signature="e#5910#6135#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -636,9 +654,8 @@
         <state relative-caret-position="612">
           <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3801#3802#0" expanded="true" />
-            <element signature="e#3828#3829#0" expanded="true" />
+            <element signature="e#3873#3874#0" expanded="true" />
+            <element signature="e#3900#3901#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -648,8 +665,8 @@
         <state relative-caret-position="323">
           <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -659,11 +676,12 @@
         <state relative-caret-position="1428">
           <caret line="84" column="20" lean-forward="false" selection-start-line="84" selection-start-column="20" selection-end-line="84" selection-end-column="20" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#enableFilterButton#0;class#ControllerMain#0" expanded="false" />
-            <element signature="e#3575#3767#0" expanded="false" />
-            <element signature="e#4383#4766#0" expanded="false" />
-            <element signature="e#4962#5187#0" expanded="false" />
-            <element signature="e#7947#10576#0" expanded="false" />
+            <element signature="e#4111#4303#0" expanded="false" />
+            <element signature="e#4523#4715#0" expanded="false" />
+            <element signature="e#5331#5714#0" expanded="false" />
+            <element signature="e#5910#6135#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -689,8 +707,8 @@
           <folding>
             <element signature="n#!!doc" expanded="false" />
             <element signature="imports" expanded="false" />
-            <element signature="e#2563#2564#0" expanded="false" />
-            <element signature="e#2590#2591#0" expanded="false" />
+            <element signature="e#2635#2636#0" expanded="false" />
+            <element signature="e#2662#2663#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -711,8 +729,8 @@
         <state relative-caret-position="272">
           <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -722,16 +740,17 @@
         <state relative-caret-position="204">
           <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#enableFilterButton#0;class#ControllerMain#0" expanded="false" />
-            <element signature="e#3575#3767#0" expanded="false" />
-            <element signature="e#4383#4766#0" expanded="false" />
-            <element signature="e#4962#5187#0" expanded="false" />
-            <element signature="e#7947#10576#0" expanded="false" />
+            <element signature="e#4111#4303#0" expanded="false" />
+            <element signature="e#4523#4715#0" expanded="false" />
+            <element signature="e#5331#5714#0" expanded="false" />
+            <element signature="e#5910#6135#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/wishlist.fxml">
+    <entry file="file://$PROJECT_DIR$/src/com/wishlist/resources/fxml/wishlist.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -742,7 +761,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Viper.css">
+    <entry file="file://$PROJECT_DIR$/src/com/wishlist/resources/css/Viper.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -754,13 +773,13 @@
         <state relative-caret-position="68">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/wishlist.fxml">
+    <entry file="file://$PROJECT_DIR$/src/com/wishlist/resources/fxml/wishlist.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
@@ -776,11 +795,12 @@
         <state relative-caret-position="68">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#enableFilterButton#0;class#ControllerMain#0" expanded="false" />
-            <element signature="e#3575#3767#0" expanded="false" />
-            <element signature="e#4383#4766#0" expanded="false" />
-            <element signature="e#4962#5187#0" expanded="false" />
-            <element signature="e#7947#10576#0" expanded="false" />
+            <element signature="e#4111#4303#0" expanded="false" />
+            <element signature="e#4523#4715#0" expanded="false" />
+            <element signature="e#5331#5714#0" expanded="false" />
+            <element signature="e#5910#6135#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -841,32 +861,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/javafx-src.zip!/javafx/beans/property/StringPropertyBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/resourceManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/DatabaseAllGames.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
-          <caret line="81" column="7" lean-forward="false" selection-start-line="81" selection-start-column="7" selection-end-line="81" selection-end-column="7" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#2563#2564#0" expanded="false" />
-            <element signature="e#2590#2591#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -880,7 +879,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/wishlist.fxml">
+    <entry file="file://$PROJECT_DIR$/src/com/wishlist/resources/fxml/wishlist.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-714">
           <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
@@ -891,7 +890,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Viper.css">
+    <entry file="file://$PROJECT_DIR$/src/com/wishlist/resources/css/Viper.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2409">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -946,47 +945,115 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/MyGame.java">
+    <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="42" column="29" lean-forward="false" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+        <state relative-caret-position="190">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/javafx-src.zip!/javafx/beans/property/ObjectPropertyBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="131" column="0" lean-forward="false" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/DatabaseMyGames.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/javafx-src.zip!/javafx/scene/control/TreeTableView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-184">
-          <caret line="61" column="122" lean-forward="false" selection-start-line="61" selection-start-column="122" selection-end-line="61" selection-end-column="122" />
+        <state relative-caret-position="176">
+          <caret line="1006" column="0" lean-forward="false" selection-start-line="1006" selection-start-column="0" selection-end-line="1006" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/javafx-src.zip!/javafx/beans/property/ReadOnlyObjectWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="91" column="0" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/javafx-src.zip!/javafx/scene/control/SelectionModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="119" column="38" lean-forward="false" selection-start-line="119" selection-start-column="38" selection-end-line="119" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/javafx-src.zip!/javafx/scene/control/TreeItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="434" column="31" lean-forward="false" selection-start-line="434" selection-start-column="31" selection-end-line="434" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/javafx-src.zip!/javafx/beans/property/StringPropertyBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/MyGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3801#3802#0" expanded="true" />
-            <element signature="e#3828#3829#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/DatabaseAllGames.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="26" column="70" lean-forward="false" selection-start-line="26" selection-start-column="70" selection-end-line="26" selection-end-column="70" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="71">
+          <caret line="41" column="79" lean-forward="false" selection-start-line="41" selection-start-column="79" selection-end-line="41" selection-end-column="79" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/ControllerMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="118" column="63" lean-forward="false" selection-start-line="118" selection-start-column="63" selection-end-line="118" selection-end-column="63" />
+        <state relative-caret-position="411">
+          <caret line="277" column="20" lean-forward="false" selection-start-line="277" selection-start-column="20" selection-end-line="282" selection-end-column="21" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#enableFilterButton#0;class#ControllerMain#0" expanded="false" />
-            <element signature="e#3575#3767#0" expanded="false" />
-            <element signature="e#4383#4766#0" expanded="false" />
-            <element signature="e#4962#5187#0" expanded="false" />
-            <element signature="e#7947#10576#0" expanded="false" />
+            <element signature="e#4111#4303#0" expanded="false" />
+            <element signature="e#4523#4715#0" expanded="false" />
+            <element signature="e#5331#5714#0" expanded="false" />
+            <element signature="e#5910#6135#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/DatabaseMyGames.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="757">
+          <caret line="148" column="1" lean-forward="false" selection-start-line="148" selection-start-column="1" selection-end-line="148" selection-end-column="1" />
+          <folding>
+            <element signature="e#3873#3874#0" expanded="true" />
+            <element signature="e#3900#3901#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/ControllerCustomGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="39" column="84" lean-forward="false" selection-start-line="39" selection-start-column="84" selection-end-line="39" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

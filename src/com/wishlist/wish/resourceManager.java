@@ -18,7 +18,7 @@ public class resourceManager {
     public static void loadFont() throws IOException, FontFormatException
     {
         GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment();
-        ge.registerFont(Font.createFont(Font.TRUETYPE_FONT, new File("src/com/wishlist/resources/fonts/Abel-Regular.ttf")));
+        ge.registerFont(Font.createFont(Font.TRUETYPE_FONT, new File("src/com/wishlist/resources/font/Abel-Regular.ttf")));
         System.out.println(">> Loaded custom font");
     }
 }

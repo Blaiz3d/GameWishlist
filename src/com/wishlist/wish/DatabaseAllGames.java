@@ -26,7 +26,7 @@ public class DatabaseAllGames
     {
         URL website = new URL("http://api.steampowered.com/ISteamApps/GetAppList/v0001/");
         ReadableByteChannel rbc = Channels.newChannel(website.openStream());
-        FileOutputStream fos = new FileOutputStream("database.json");
+        FileOutputStream fos = new FileOutputStream("src/com/wishlist/resources/database/database.json");
         fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
 
         System.out.println(">> Downloaded steam game list");
@@ -39,7 +39,7 @@ public class DatabaseAllGames
      */
     public static void writeToLocalDatabase() throws FileNotFoundException, UnsupportedEncodingException
     {
-        File file = new File("database.json");
+        File file = new File("src/com/wishlist/resources/database/database.json");
         Scanner input = new Scanner(file);
 
         String line;

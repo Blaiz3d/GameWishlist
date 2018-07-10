@@ -196,3 +196,61 @@
 	-fx-background-color: #26282d;
 	-fx-text-fill: #77B901;
 }
+
+/*****************************************************************************************
+ *																						 *
+ *								    ContextMenu Styling									 *
+ *																						 *
+ *****************************************************************************************/
+.context-menu {
+  -fx-background-color: #26282d;
+  -fx-accent-text: red;
+  -fx-border-color: #31333a;
+  -fx-padding: 0 0 0 0;
+}
+
+.menu-item{
+	
+}
+
+.menu-item .label {
+  -fx-text-fill: #77B901;
+  -fx-padding: 2 0 2 0;
+}
+
+.menu-item:hover{
+  -fx-background-color: #77B901;
+}
+
+.menu-item:hover .label {
+  -fx-text-fill: white;
+}
+
+.menu-item:focused{
+  -fx-background-color: #77B901;
+}
+
+.menu-item:focused .label {
+  -fx-text-fill: white;
+}
+
+/*****************************************************************************************
+ *																						 *
+ *								     MenuBar Styling									 *
+ *																						 *
+ *****************************************************************************************/
+ .menu-bar{
+ 	-fx-background-color: #0e0f11;
+ }
+
+ .menu-bar .label{
+ 	-fx-text-fill: #77B901;
+ }
+
+.menu:hover, .menu:showing{
+  -fx-background-color: #77B901;
+}
+
+ .menu:hover .label, .menu:showing .label{
+  -fx-text-fill: white;
+}

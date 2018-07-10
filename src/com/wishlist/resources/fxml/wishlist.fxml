@@ -10,7 +10,7 @@
    <children>
       <BorderPane prefHeight="200.0" prefWidth="200.0">
          <top>
-            <MenuBar BorderPane.alignment="CENTER">
+            <MenuBar focusTraversable="false" BorderPane.alignment="CENTER">
               <menus>
                 <Menu mnemonicParsing="false" text="File">
                   <items>
@@ -33,17 +33,17 @@
          <right>
             <VBox prefHeight="666.0" prefWidth="128.0" BorderPane.alignment="CENTER">
                <children>
-                  <JFXButton fx:id="button1" buttonType="RAISED" onAction="#addCustomGame" prefHeight="86.0" prefWidth="154.0" ripplerFill="#77b901" text="Add a custom game">
-                     <VBox.margin>
-                        <Insets bottom="2.5" left="2.0" right="2.0" top="2.5" />
-                     </VBox.margin>
+                    <JFXButton fx:id="button1" buttonType="RAISED" focusTraversable="false" onAction="#addCustomGame" prefHeight="86.0" prefWidth="154.0" ripplerFill="#77b901" text="Add custom game">
+                      <VBox.margin>
+                          <Insets bottom="2.5" left="5" right="5" top="0" />
+                      </VBox.margin>
+                    </JFXButton>
+                    <JFXButton fx:id="button2" buttonType="RAISED" disable="true" focusTraversable="false" onAction="#filterMyGames" prefHeight="86.0" prefWidth="154.0" ripplerFill="#77b901" text="Filter my games">
+                      <VBox.margin>
+                          <Insets bottom="2.5" left="5" right="5" top="2.5" />
+                      </VBox.margin>
                   </JFXButton>
-                  <JFXButton fx:id="button2" buttonType="RAISED" disable="true" onAction="#filterMyGames" prefHeight="86.0" prefWidth="154.0" ripplerFill="#77b901" text="Filter my games">
-                     <VBox.margin>
-                        <Insets bottom="2.5" left="2.0" right="2.0" top="2.5" />
-                     </VBox.margin>
-                  </JFXButton>
-               </children></VBox>
+              </children></VBox>
          </right>
          <center>
             <JFXTabPane fx:id="tabPane" BorderPane.alignment="CENTER">
@@ -52,10 +52,14 @@
                      <content>
                         <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                            <children>
-                               <JFXScrollPane layoutX="230.0" layoutY="74.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
-                                 <children>
-                                    <JFXTreeTableView fx:id="treeView"/>
-                                 </children></JFXScrollPane>
+                              <JFXTextField fx:id="searchFieldMy" layoutX="54.0" layoutY="27.0" prefHeight="42.0" prefWidth="853.0" promptText="Search" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0">
+                                 <padding>
+                                    <Insets left="25.0" right="25.0" />
+                                 </padding></JFXTextField>
+                               <JFXScrollPane layoutX="230.0" layoutY="74.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="110.0">
+							              <children>
+								        <JFXTreeTableView fx:id="treeView" />
+						     </children></JFXScrollPane>
                         </children></AnchorPane>
                      </content>
                   </Tab>
@@ -63,14 +67,14 @@
                      <content>
                         <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                            <children>
-                              <JFXTextField fx:id="searchField" layoutX="54.0" layoutY="27.0" prefHeight="42.0" prefWidth="853.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0">
+                              <JFXTextField fx:id="searchField" layoutX="54.0" layoutY="27.0" prefHeight="42.0" prefWidth="853.0" promptText="Search" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0">
                                  <padding>
                                     <Insets left="25.0" right="25.0" />
                                  </padding></JFXTextField>
-                              <JFXScrollPane fx:id="scrollPaneAll" layoutX="221.0" layoutY="283.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="110.0">
-                                  <children>
-                                      <JFXTreeTableView fx:id="treeViewAll"/>
-                                  </children></JFXScrollPane>
+                              <JFXScrollPane layoutX="230.0" layoutY="74.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="110.0">
+                                <children>
+                                    <JFXTreeTableView fx:id="treeViewAll" />
+                                 </children></JFXScrollPane>
                            </children></AnchorPane>
                      </content>
                   </Tab>
