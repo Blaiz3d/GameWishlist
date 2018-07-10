@@ -6,6 +6,7 @@ package com.wishlist.wish;
 
 import com.jfoenix.controls.*;
 import com.jfoenix.controls.datamodels.treetable.RecursiveTreeObject;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
@@ -33,10 +34,44 @@ public class ControllerMain implements Initializable{
     private JFXTreeTableView<Game> treeViewAll;
     @FXML
     private JFXTextField searchField;
+    @FXML
+    private JFXButton button1;
+    @FXML
+    private JFXButton button2;
+
+    //FXML Methods
+    @FXML
+    void addCustomGame(ActionEvent event)
+    {
+
+    }
+
+    @FXML
+    void filterMyGames(ActionEvent event)
+    {
+
+    }
+
+    /**
+     * Manages the enabling/disabling of the filter button
+     */
+    public void enableFilterButton(boolean empty)
+    {
+        if (!empty)
+        {
+            button2.setDisable(false);
+        }
+        else
+        {
+            button2.setDisable(true);
+        }
+    }
 
     @Override
     public void initialize(URL location, ResourceBundle resources)
     {
+        enableFilterButton(checkWishlistIfAny());
+
         /**
          * Creates and loads the columns in the JFXTreeTableView
          */
@@ -157,6 +192,7 @@ public class ControllerMain implements Initializable{
                 rowToDelete.getParent().getChildren().remove(rowToDelete);
                 treeView.getSelectionModel().clearSelection();
                 removeGame(gameToDelete);
+                enableFilterButton(checkWishlistIfAny());
             });
             return row;
         });
@@ -195,7 +231,7 @@ public class ControllerMain implements Initializable{
                 String titleSelected = treeViewAll.getSelectionModel().getSelectedItem().getValue().getTitle();
                 String appid = treeViewAll.getSelectionModel().getSelectedItem().getValue().getAppid();
 
-                boolean gameExists = checkWishlist(appid);
+                boolean gameExists = checkWishlistIfExists(appid);
 
                 if (!gameExists)
                 {
@@ -214,6 +250,7 @@ public class ControllerMain implements Initializable{
                         alert.close();
                     }
                 }
+                enableFilterButton(checkWishlistIfAny());
             });
 
             /**
@@ -233,5 +270,3 @@ public class ControllerMain implements Initializable{
         });
     }
 }
-//todo: Check if game is already in wishlist before adding
-//todo: Remove context menu from the headers of TreeTableViews

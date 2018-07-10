@@ -4,8 +4,10 @@
 
 package com.wishlist.wish;
 
+import com.jfoenix.controls.JFXButton;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.fxml.FXML;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -95,9 +97,23 @@ public class DatabaseMyGames
     }
 
     /**
+     * Checks if there are any games in the wishlist
+     */
+    public static boolean checkWishlistIfAny()
+    {
+        boolean empty = true;
+
+        if (game.size() > 0)
+        {
+            empty = false;
+        }
+        return empty;
+    }
+
+    /**
      * Checks wheather the game is already in the wishlist
      */
-    public static boolean checkWishlist(String appid) {
+    public static boolean checkWishlistIfExists(String appid) {
         boolean exists = false;
 
         if (game.size() > 0)

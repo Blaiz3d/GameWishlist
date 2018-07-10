@@ -114712,7 +114712,7 @@
 },
 {
 	"appid": 489610,
-	"name": "Chicken Assassin: Master of Humiliation"
+	"name": "Chicken Assassin: Reloaded"
 },
 {
 	"appid": 489620,
@@ -217320,7 +217320,7 @@
 },
 {
 	"appid": 750970,
-	"name": "Dream Beach 2 - 360° VR Video Relaxation (6K/2D)"
+	"name": "Dream Beach 2 VR Relaxation - 360° Video (6K/2D)"
 },
 {
 	"appid": 750980,
@@ -227923,6 +227923,10 @@
 	"name": "Extinction: Ravenii Rampage"
 },
 {
+	"appid": 787682,
+	"name": "Extinction: Skybound Sentinel"
+},
+{
 	"appid": 787690,
 	"name": "Math Hero"
 },
@@ -228125,6 +228129,10 @@
 {
 	"appid": 788430,
 	"name": "Home Design 3D - Gold Plus"
+},
+{
+	"appid": 788440,
+	"name": "MagiCats Builder - Infinite Pack"
 },
 {
 	"appid": 788460,
@@ -228800,7 +228808,7 @@
 },
 {
 	"appid": 790870,
-	"name": "Mallorca - 360° VR Video Relaxation (6K/2D)"
+	"name": "Mallorca | VR Relaxation | 360° Video | 6K/2D"
 },
 {
 	"appid": 790890,
@@ -231089,6 +231097,10 @@
 {
 	"appid": 798410,
 	"name": "Sweet 16"
+},
+{
+	"appid": 798420,
+	"name": "PRO FISHING 2018"
 },
 {
 	"appid": 798430,
@@ -236164,7 +236176,7 @@
 },
 {
 	"appid": 815980,
-	"name": "Sun & Clouds Timelapse - 360° VR Video Experience (6K/2D)"
+	"name": "Sun & Clouds VR Timelapse - 360° Video (6K/2D)"
 },
 {
 	"appid": 816000,
@@ -239484,7 +239496,7 @@
 },
 {
 	"appid": 827600,
-	"name": "Simple Story - Alex: Beer Factory Donation for developer"
+	"name": "Simple Story Alex - Good Day"
 },
 {
 	"appid": 827610,
@@ -242527,6 +242539,10 @@
 	"name": "Undead & Beyond"
 },
 {
+	"appid": 839420,
+	"name": "Krampus is Home"
+},
+{
 	"appid": 839430,
 	"name": "Flurius"
 },
@@ -242945,6 +242961,10 @@
 {
 	"appid": 841163,
 	"name": "X-Plane 11 - Add-on: Aerosoft - Helgoland XP"
+},
+{
+	"appid": 841165,
+	"name": "X-Plane 11 - Add-on: Aerosoft - Airport Friedrichshafen"
 },
 {
 	"appid": 841170,
@@ -246207,6 +246227,10 @@
 	"name": "Gopnik Simulator"
 },
 {
+	"appid": 853230,
+	"name": "Champions of Titan"
+},
+{
 	"appid": 853250,
 	"name": "신기록 : A Compendium of Ghosts"
 },
@@ -246893,6 +246917,10 @@
 {
 	"appid": 855793,
 	"name": "Naruto Shippuden Uncut: Leaving the Village"
+},
+{
+	"appid": 855800,
+	"name": "Trek: Travel Around the World"
 },
 {
 	"appid": 855810,
@@ -247727,6 +247755,10 @@
 	"name": "Seeking Dawn"
 },
 {
+	"appid": 859350,
+	"name": "Aces of the Luftwaffe - Squadron"
+},
+{
 	"appid": 859370,
 	"name": "in My MIND."
 },
@@ -248457,6 +248489,10 @@
 {
 	"appid": 862400,
 	"name": "Full-On Paintball - All Weapons Unlocked"
+},
+{
+	"appid": 862401,
+	"name": "Full-On Paintball - ATV Vehicle"
 },
 {
 	"appid": 862430,
@@ -249469,6 +249505,10 @@
 {
 	"appid": 867100,
 	"name": "RPG Maker MV - Tyler Warren RPG Battlers - 1st 50"
+},
+{
+	"appid": 867110,
+	"name": "Dungeon Rankers"
 },
 {
 	"appid": 867120,
@@ -250611,6 +250651,10 @@
 	"name": "SUPER BALL WRESTLE YES"
 },
 {
+	"appid": 871590,
+	"name": "Nurikabe"
+},
+{
 	"appid": 871600,
 	"name": "PeeTee Babybuu - Soundtrack & Artwork Collection"
 },
@@ -251223,6 +251267,10 @@
 	"name": "Dungeon Defenders II - Classic Pack"
 },
 {
+	"appid": 874770,
+	"name": "Goinund"
+},
+{
 	"appid": 874780,
 	"name": "Brick Breaker Premium"
 },
@@ -251637,6 +251685,10 @@
 {
 	"appid": 876930,
 	"name": "Fancy Skiing 2: Online"
+},
+{
+	"appid": 876950,
+	"name": "PC Check & Tuning 2019 Steam Edition"
 },
 {
 	"appid": 876960,
@@ -252964,7 +253016,7 @@
 },
 {
 	"appid": 884800,
-	"name": "KILLER BACKFLIP 999"
+	"name": "Stick Man Fight 3"
 },
 {
 	"appid": 884890,
@@ -253103,8 +253155,16 @@
 	"name": "In The Fighting"
 },
 {
+	"appid": 885640,
+	"name": "Lynne"
+},
+{
 	"appid": 885650,
 	"name": "The Waters Above: Prelude"
+},
+{
+	"appid": 885690,
+	"name": "Liminal"
 },
 {
 	"appid": 885720,
@@ -253249,6 +253309,10 @@
 {
 	"appid": 886470,
 	"name": "Another Otter"
+},
+{
+	"appid": 886490,
+	"name": "SPEED BOX"
 },
 {
 	"appid": 886530,
@@ -253707,6 +253771,10 @@
 	"name": "Battle Royale Builder"
 },
 {
+	"appid": 889180,
+	"name": "FPV Air 2 - Night Tracks DLC"
+},
+{
 	"appid": 889200,
 	"name": "Vatnik Simulator - A Russian Patriot Game - OST"
 },
@@ -253725,6 +253793,10 @@
 {
 	"appid": 889270,
 	"name": "Ninja from Hell vs. Reptiloids"
+},
+{
+	"appid": 889320,
+	"name": "The Plant"
 },
 {
 	"appid": 889330,
@@ -254027,6 +254099,10 @@
 	"name": "Primitive Survival"
 },
 {
+	"appid": 890800,
+	"name": "Country Park"
+},
+{
 	"appid": 890850,
 	"name": "AnyWay! - Premium Abby character pack!"
 },
@@ -254095,6 +254171,10 @@
 	"name": "Bike Dash Excite!"
 },
 {
+	"appid": 891230,
+	"name": "Planet Coaster - Vintage Pack"
+},
+{
 	"appid": 891250,
 	"name": "Making of Traum"
 },
@@ -254143,6 +254223,10 @@
 	"name": "The Island Combat: Soundtrack"
 },
 {
+	"appid": 891550,
+	"name": "Falling Blocks: Soundtrack"
+},
+{
 	"appid": 891570,
 	"name": "Cat couple"
 },
@@ -254183,6 +254267,10 @@
 	"name": "World of Warships - Monaghan Pack DLC"
 },
 {
+	"appid": 891780,
+	"name": "World of Warships - Haida Pack DLC"
+},
+{
 	"appid": 891860,
 	"name": "Riddles of the Owls Kingdom"
 },
@@ -254209,6 +254297,10 @@
 {
 	"appid": 891890,
 	"name": "INFINITY RACER"
+},
+{
+	"appid": 891930,
+	"name": "Fantasy Grounds - Pathfinder RPG - NPC Codex (PFRPG)"
 },
 {
 	"appid": 892020,
@@ -254271,6 +254363,10 @@
 	"name": "Beauty and the Beast"
 },
 {
+	"appid": 892600,
+	"name": "City of the Shroud® Soundtrack"
+},
+{
 	"appid": 892610,
 	"name": "Fantasy Grounds - Strange Supernaturals, Volume 7 (Token Pack)"
 },
@@ -254280,11 +254376,19 @@
 },
 {
 	"appid": 892630,
-	"name": "Eye Contact: Hanako"
+	"name": "Mojo: Hanako"
 },
 {
 	"appid": 892640,
 	"name": "CAP-FIG-CID (Colors Are Pretty, Fish Is Gross, Cake is Delicious)"
+},
+{
+	"appid": 892660,
+	"name": "Fantasy Grounds - Dungeonlands Intro Pack (Savage Worlds)"
+},
+{
+	"appid": 892710,
+	"name": "Fantasy Grounds - Sci-fi Species, Volume 6 (Token Pack)"
 },
 {
 	"appid": 892750,
@@ -254293,6 +254397,10 @@
 {
 	"appid": 892880,
 	"name": "Chocolate makes you happy 7"
+},
+{
+	"appid": 892910,
+	"name": "Space Wars"
 },
 {
 	"appid": 892920,
@@ -254351,6 +254459,10 @@
 	"name": "Voxel Race"
 },
 {
+	"appid": 893340,
+	"name": "Fantasy Grounds - Rappan Athuk Bestiary (PFRPG)"
+},
+{
 	"appid": 893350,
 	"name": "Malfortune"
 },
@@ -254381,6 +254493,10 @@
 {
 	"appid": 893700,
 	"name": "Business tour. Football: Goalkeeper"
+},
+{
+	"appid": 893710,
+	"name": "Mercenary Leto"
 },
 {
 	"appid": 893730,
@@ -254451,6 +254567,10 @@
 	"name": "Cast Away"
 },
 {
+	"appid": 894380,
+	"name": "Exoplanet"
+},
+{
 	"appid": 894400,
 	"name": "Lame & Cheesy Demo"
 },
@@ -254511,8 +254631,20 @@
 	"name": "The Chronicles of Noah's Ark"
 },
 {
+	"appid": 894750,
+	"name": "L-Way"
+},
+{
 	"appid": 894840,
 	"name": "Puzzle Pirates - Shadow Raider pack"
+},
+{
+	"appid": 894900,
+	"name": "Speedy Girls - Dream Team"
+},
+{
+	"appid": 894980,
+	"name": "Have You Seen My Robot?"
 },
 {
 	"appid": 895330,
@@ -254547,8 +254679,20 @@
 	"name": "Detached: Non-VR Edition Demo"
 },
 {
+	"appid": 895550,
+	"name": "Total 15"
+},
+{
 	"appid": 895790,
 	"name": "Degrees Awesome Soundtrack"
+},
+{
+	"appid": 895900,
+	"name": "The Chaotic Workshop"
+},
+{
+	"appid": 896070,
+	"name": "Second Hazardous Course"
 },
 {
 	"appid": 896100,
@@ -254561,6 +254705,10 @@
 {
 	"appid": 896180,
 	"name": "Nazi 2"
+},
+{
+	"appid": 896220,
+	"name": "Dangerous Skies 80's edition"
 },
 {
 	"appid": 896230,
@@ -254591,12 +254739,52 @@
 	"name": "Koral"
 },
 {
+	"appid": 896970,
+	"name": "Haunted Halls: Revenge of Doctor Blackmore Collector's Edition"
+},
+{
 	"appid": 897040,
 	"name": "Nazi Bunker"
 },
 {
 	"appid": 897130,
 	"name": "Trinity Demo"
+},
+{
+	"appid": 897340,
+	"name": "Nous"
+},
+{
+	"appid": 897360,
+	"name": "Urban Explorer Golf"
+},
+{
+	"appid": 897390,
+	"name": "Full Metal Renegade"
+},
+{
+	"appid": 897550,
+	"name": "Study of Unusual: Forest of Secrets"
+},
+{
+	"appid": 897620,
+	"name": "Russian world cup battlegrounds"
+},
+{
+	"appid": 897690,
+	"name": "Ding Dong VR"
+},
+{
+	"appid": 897920,
+	"name": "Tibetan Singing Bowls VR - 360° Video (6K/2D)"
+},
+{
+	"appid": 898030,
+	"name": "God's Basement Demo"
+},
+{
+	"appid": 898100,
+	"name": "Blade of Arena Demo"
 },
 {
 	"appid": 898550,
@@ -254621,4 +254809,8 @@
 {
 	"appid": 898555,
 	"name": "Talk in der Alm: #09.6 Moorhuhn, Gothic und was mit Panzern"
+},
+{
+	"appid": 898880,
+	"name": "HellCat Demo"
 }	]}}}
