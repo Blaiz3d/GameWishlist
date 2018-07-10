@@ -22,9 +22,16 @@ public class DatabaseMyGames
     /**
      * Adds a wish listed game to the List
      */
-    public static void addToMyGames(String title, String appid, String currentDate)
+    public static void addToMyGames(String title, String appid, String currentDate, boolean isSteam)
     {
-        game.add(new MyGame(title, appid, currentDate));
+        if (isSteam)
+        {
+            game.add(new MyGame(title, appid, currentDate, "y"));
+        }
+        else
+        {
+            game.add(new MyGame(title, appid, currentDate, "n"));
+        }
     }
 
     /**
@@ -52,7 +59,7 @@ public class DatabaseMyGames
         PrintWriter writer = new PrintWriter("wishlist.txt", "UTF-8");
         for (int i = 0; i < game.size(); i++)
         {
-            writer.print(game.get(i).getTitle() + "," + game.get(i).getAppid() + "," + game.get(i).getDateAdded() + "\n");
+            writer.print(game.get(i).getTitle() + "," + game.get(i).getAppid() + "," + game.get(i).getDateAdded() + "," + game.get(i).getIsSteam() + "\n");
         }
         System.out.println(">> Saved to file");
         writer.close();
@@ -72,6 +79,7 @@ public class DatabaseMyGames
             String title;
             String appid;
             String dateAdded;
+            String isSteam;
 
             int gameCount = 0;
 
@@ -82,8 +90,9 @@ public class DatabaseMyGames
                 title = lineArray[0];
                 appid = lineArray[1];
                 dateAdded = lineArray[2];
+                isSteam = lineArray[3];
 
-                game.add(new MyGame(title, appid, dateAdded));
+                game.add(new MyGame(title, appid, dateAdded, isSteam));
                 gameCount++;
             }
 

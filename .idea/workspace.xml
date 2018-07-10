@@ -5,16 +5,15 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/database.json" afterPath="$PROJECT_DIR$/database.json" />
       <change beforePath="$PROJECT_DIR$/out/production/WishList/Viper.css" afterPath="$PROJECT_DIR$/out/production/WishList/Viper.css" />
-      <change beforePath="$PROJECT_DIR$/out/production/WishList/com/wishlist/wish/ControllerMain$1.class" afterPath="$PROJECT_DIR$/out/production/WishList/com/wishlist/wish/ControllerMain$1.class" />
       <change beforePath="$PROJECT_DIR$/out/production/WishList/com/wishlist/wish/ControllerMain$2.class" afterPath="$PROJECT_DIR$/out/production/WishList/com/wishlist/wish/ControllerMain$2.class" />
       <change beforePath="$PROJECT_DIR$/out/production/WishList/com/wishlist/wish/ControllerMain.class" afterPath="$PROJECT_DIR$/out/production/WishList/com/wishlist/wish/ControllerMain.class" />
       <change beforePath="$PROJECT_DIR$/out/production/WishList/com/wishlist/wish/DatabaseMyGames.class" afterPath="$PROJECT_DIR$/out/production/WishList/com/wishlist/wish/DatabaseMyGames.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/WishList/com/wishlist/wish/Main.class" afterPath="$PROJECT_DIR$/out/production/WishList/com/wishlist/wish/Main.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/WishList/com/wishlist/wish/MyGame.class" afterPath="$PROJECT_DIR$/out/production/WishList/com/wishlist/wish/MyGame.class" />
       <change beforePath="$PROJECT_DIR$/out/production/WishList/com/wishlist/wish/wishlist.fxml" afterPath="$PROJECT_DIR$/out/production/WishList/com/wishlist/wish/wishlist.fxml" />
       <change beforePath="$PROJECT_DIR$/src/Viper.css" afterPath="$PROJECT_DIR$/src/Viper.css" />
       <change beforePath="$PROJECT_DIR$/src/com/wishlist/wish/ControllerMain.java" afterPath="$PROJECT_DIR$/src/com/wishlist/wish/ControllerMain.java" />
       <change beforePath="$PROJECT_DIR$/src/com/wishlist/wish/DatabaseMyGames.java" afterPath="$PROJECT_DIR$/src/com/wishlist/wish/DatabaseMyGames.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/wishlist/wish/Main.java" afterPath="$PROJECT_DIR$/src/com/wishlist/wish/Main.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/wishlist/wish/MyGame.java" afterPath="$PROJECT_DIR$/src/com/wishlist/wish/MyGame.java" />
       <change beforePath="$PROJECT_DIR$/src/com/wishlist/wish/wishlist.fxml" afterPath="$PROJECT_DIR$/src/com/wishlist/wish/wishlist.fxml" />
       <change beforePath="$PROJECT_DIR$/wishlist.txt" afterPath="$PROJECT_DIR$/wishlist.txt" />
     </list>
@@ -74,10 +73,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+            <state relative-caret-position="145">
               <caret line="26" column="70" lean-forward="false" selection-start-line="26" selection-start-column="70" selection-end-line="26" selection-end-column="70" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -87,19 +86,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ControllerMain.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ControllerMain.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/ControllerMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1505">
-              <caret line="203" column="8" lean-forward="false" selection-start-line="203" selection-start-column="8" selection-end-line="203" selection-end-column="8" />
+            <state relative-caret-position="247">
+              <caret line="118" column="63" lean-forward="false" selection-start-line="118" selection-start-column="63" selection-end-line="118" selection-end-column="63" />
               <folding>
                 <element signature="method#enableFilterButton#0;class#ControllerMain#0" expanded="false" />
                 <element signature="e#3575#3767#0" expanded="false" />
-                <element signature="e#3925#4194#0" expanded="false" />
                 <element signature="e#4383#4766#0" expanded="false" />
                 <element signature="e#4962#5187#0" expanded="false" />
-                <element signature="e#5308#7304#0" expanded="false" />
-                <element signature="e#7431#10007#0" expanded="false" />
+                <element signature="e#7947#10576#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -108,13 +105,23 @@
       <file leaf-file-name="DatabaseMyGames.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/DatabaseMyGames.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+            <state relative-caret-position="-184">
+              <caret line="61" column="122" lean-forward="false" selection-start-line="61" selection-start-column="122" selection-end-line="61" selection-end-column="122" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3525#3526#0" expanded="true" />
-                <element signature="e#3552#3553#0" expanded="true" />
+                <element signature="e#3801#3802#0" expanded="true" />
+                <element signature="e#3828#3829#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyGame.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/MyGame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="42" column="29" lean-forward="false" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -160,13 +167,13 @@
         <option value="$PROJECT_DIR$/src/com/wishlist/wish/StretchedTabPane.java" />
         <option value="$PROJECT_DIR$/src/com/wishlist/wish/Database.java" />
         <option value="$PROJECT_DIR$/src/com/wishlist/wish/DatabaseAllGames.java" />
-        <option value="$PROJECT_DIR$/src/com/wishlist/wish/MyGame.java" />
         <option value="$PROJECT_DIR$/src/com/wishlist/wish/Game.java" />
         <option value="$PROJECT_DIR$/src/com/wishlist/wish/resourceManager.java" />
         <option value="$PROJECT_DIR$/src/com/wishlist/wish/wishlist.fxml" />
+        <option value="$PROJECT_DIR$/src/com/wishlist/wish/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/wishlist/wish/MyGame.java" />
         <option value="$PROJECT_DIR$/src/com/wishlist/wish/DatabaseMyGames.java" />
         <option value="$PROJECT_DIR$/src/com/wishlist/wish/ControllerMain.java" />
-        <option value="$PROJECT_DIR$/src/com/wishlist/wish/Main.java" />
       </list>
     </option>
   </component>
@@ -587,12 +594,12 @@
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#648#649#0" expanded="false" />
-            <element signature="e#682#683#0" expanded="false" />
-            <element signature="e#718#719#0" expanded="false" />
-            <element signature="e#752#753#0" expanded="false" />
-            <element signature="e#792#793#0" expanded="false" />
-            <element signature="e#830#831#0" expanded="false" />
+            <element signature="e#750#751#0" expanded="false" />
+            <element signature="e#784#785#0" expanded="false" />
+            <element signature="e#820#821#0" expanded="false" />
+            <element signature="e#854#855#0" expanded="false" />
+            <element signature="e#894#895#0" expanded="false" />
+            <element signature="e#932#933#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -617,11 +624,9 @@
           <folding>
             <element signature="method#enableFilterButton#0;class#ControllerMain#0" expanded="false" />
             <element signature="e#3575#3767#0" expanded="false" />
-            <element signature="e#3925#4194#0" expanded="false" />
             <element signature="e#4383#4766#0" expanded="false" />
             <element signature="e#4962#5187#0" expanded="false" />
-            <element signature="e#5308#7304#0" expanded="false" />
-            <element signature="e#7431#10007#0" expanded="false" />
+            <element signature="e#7947#10576#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -632,8 +637,8 @@
           <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3525#3526#0" expanded="true" />
-            <element signature="e#3552#3553#0" expanded="true" />
+            <element signature="e#3801#3802#0" expanded="true" />
+            <element signature="e#3828#3829#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -656,11 +661,9 @@
           <folding>
             <element signature="method#enableFilterButton#0;class#ControllerMain#0" expanded="false" />
             <element signature="e#3575#3767#0" expanded="false" />
-            <element signature="e#3925#4194#0" expanded="false" />
             <element signature="e#4383#4766#0" expanded="false" />
             <element signature="e#4962#5187#0" expanded="false" />
-            <element signature="e#5308#7304#0" expanded="false" />
-            <element signature="e#7431#10007#0" expanded="false" />
+            <element signature="e#7947#10576#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -721,11 +724,9 @@
           <folding>
             <element signature="method#enableFilterButton#0;class#ControllerMain#0" expanded="false" />
             <element signature="e#3575#3767#0" expanded="false" />
-            <element signature="e#3925#4194#0" expanded="false" />
             <element signature="e#4383#4766#0" expanded="false" />
             <element signature="e#4962#5187#0" expanded="false" />
-            <element signature="e#5308#7304#0" expanded="false" />
-            <element signature="e#7431#10007#0" expanded="false" />
+            <element signature="e#7947#10576#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -777,11 +778,9 @@
           <folding>
             <element signature="method#enableFilterButton#0;class#ControllerMain#0" expanded="false" />
             <element signature="e#3575#3767#0" expanded="false" />
-            <element signature="e#3925#4194#0" expanded="false" />
             <element signature="e#4383#4766#0" expanded="false" />
             <element signature="e#4962#5187#0" expanded="false" />
-            <element signature="e#5308#7304#0" expanded="false" />
-            <element signature="e#7431#10007#0" expanded="false" />
+            <element signature="e#7947#10576#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -900,26 +899,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/MyGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="28" column="28" lean-forward="false" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/DatabaseMyGames.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3525#3526#0" expanded="true" />
-            <element signature="e#3552#3553#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/javafx-src.zip!/javafx/beans/binding/BooleanExpression.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -967,29 +946,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/ControllerMain.java">
+    <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/MyGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1505">
-          <caret line="203" column="8" lean-forward="false" selection-start-line="203" selection-start-column="8" selection-end-line="203" selection-end-column="8" />
+        <state relative-caret-position="459">
+          <caret line="42" column="29" lean-forward="false" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/DatabaseMyGames.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-184">
+          <caret line="61" column="122" lean-forward="false" selection-start-line="61" selection-start-column="122" selection-end-line="61" selection-end-column="122" />
           <folding>
-            <element signature="method#enableFilterButton#0;class#ControllerMain#0" expanded="false" />
-            <element signature="e#3575#3767#0" expanded="false" />
-            <element signature="e#3925#4194#0" expanded="false" />
-            <element signature="e#4383#4766#0" expanded="false" />
-            <element signature="e#4962#5187#0" expanded="false" />
-            <element signature="e#5308#7304#0" expanded="false" />
-            <element signature="e#7431#10007#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#3801#3802#0" expanded="true" />
+            <element signature="e#3828#3829#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
+        <state relative-caret-position="145">
           <caret line="26" column="70" lean-forward="false" selection-start-line="26" selection-start-column="70" selection-end-line="26" selection-end-column="70" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/ControllerMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="118" column="63" lean-forward="false" selection-start-line="118" selection-start-column="63" selection-end-line="118" selection-end-column="63" />
+          <folding>
+            <element signature="method#enableFilterButton#0;class#ControllerMain#0" expanded="false" />
+            <element signature="e#3575#3767#0" expanded="false" />
+            <element signature="e#4383#4766#0" expanded="false" />
+            <element signature="e#4962#5187#0" expanded="false" />
+            <element signature="e#7947#10576#0" expanded="false" />
           </folding>
         </state>
       </provider>
