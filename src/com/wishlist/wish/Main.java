@@ -62,7 +62,6 @@ public class Main extends Application {
     }
 }
 //Todos
-//todo: Add ability to add custom games (not from the list)
 //todo: Create About dialog information
 //todo: Add ability to delete all games from wish list
 //todo: Filter wish listed games based on date added
