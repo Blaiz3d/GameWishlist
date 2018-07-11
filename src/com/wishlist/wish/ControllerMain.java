@@ -20,6 +20,7 @@ import java.io.IOException;
 import java.net.URISyntaxException;
 import java.net.URL;
 import java.text.DateFormat;
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.ResourceBundle;
@@ -59,9 +60,30 @@ public class ControllerMain implements Initializable{
     }
 
     @FXML
-    void filterMyGames(ActionEvent event)
+    void filterMyGames(ActionEvent event) throws IOException
     {
+        FXMLLoader fxmlLoader = new FXMLLoader();
+        fxmlLoader.setLocation(getClass().getResource("../resources/fxml/filterGame.fxml"));
+        Parent root = fxmlLoader.load();
+        //Parent root = FXMLLoader.load(getClass().getResource("../resources/fxml/filterGame.fxml"));
+        //fxmlLoader.load();
 
+        //ControllerFilterGame filter = fxmlLoader.getController();
+       // filter.setTreeView(treeView);
+
+
+
+
+        Stage stage = new Stage();
+        stage.setTitle("Games older than");
+        Scene scene = new Scene(root);
+
+        ControllerFilterGame controller = fxmlLoader.getController();
+        controller.setTreeView(treeView);
+
+        scene.getStylesheets().add("com/wishlist/resources/css/Viper.css");
+        stage.setScene(scene);
+        stage.show();
     }
 
     /**
@@ -122,6 +144,8 @@ public class ControllerMain implements Initializable{
                     Boolean flag = gameTreeItem.getValue().title.getValue().toLowerCase().contains(newValue.toLowerCase());
                     return flag;
                 }));
+
+
 
         /**
          * Filters all games by the text typed in the search field
@@ -300,5 +324,12 @@ public class ControllerMain implements Initializable{
             });
             return row;
         });
+    }
+
+
+
+    public void filterOldGames(Date date)
+    {
+
     }
 }

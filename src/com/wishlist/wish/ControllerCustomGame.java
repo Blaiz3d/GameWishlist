@@ -36,7 +36,8 @@ public class ControllerCustomGame implements Initializable {
         boolean isSteam = false;
         boolean gameExists = checkWishlistIfExists(title);
 
-        if (title.isEmpty()) {
+        if (title.isEmpty())
+        {
             Alert alert = new Alert(Alert.AlertType.NONE, "Please enter a game title", ButtonType.OK);
             alert.showAndWait();
 
@@ -66,7 +67,7 @@ public class ControllerCustomGame implements Initializable {
     }
 
     /**
-     * Closes the window
+     * Closes the window on cancel button
      */
     @FXML
     void cancel(ActionEvent event) {

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="152.0" prefWidth="407.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.wishlist.wish.ControllerFilterGame">
+   <children>
+      <JFXButton buttonType="RAISED" focusTraversable="false" layoutX="293.0" layoutY="90.0" onAction="#cancel" prefHeight="48.0" prefWidth="100.0" ripplerFill="#77b901" text="Cancel" />
+      <JFXButton buttonType="RAISED" focusTraversable="false" layoutX="180.0" layoutY="90.0" onAction="#confirm" prefHeight="48.0" prefWidth="100.0" ripplerFill="#77b901" text="Confirm" />
+      <JFXTextField fx:id="textField" alignment="CENTER" layoutX="31.0" layoutY="14.0" prefHeight="55.0" prefWidth="39.0" promptText="#" />
+      <Label focusTraversable="false" layoutX="87.0" layoutY="14.0" prefHeight="55.0" prefWidth="100.0" text="months" textFill="#77b901">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
