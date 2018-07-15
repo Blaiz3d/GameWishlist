@@ -62,9 +62,16 @@ public class ControllerMain implements Initializable{
     @FXML
     void filterMyGames(ActionEvent event) throws IOException
     {
-        FXMLLoader fxmlLoader = new FXMLLoader();
-        fxmlLoader.setLocation(getClass().getResource("../resources/fxml/filterGame.fxml"));
-        Parent root = fxmlLoader.load();
+        FXMLLoader fxmlLoader1 = new FXMLLoader();
+        FXMLLoader fxmlLoader2 = new FXMLLoader();
+
+        fxmlLoader1.setLocation(getClass().getResource("../resources/fxml/wishlist.fxml"));
+        Parent root1 = fxmlLoader1.load();
+        ControllerMain controllerMain = fxmlLoader1.getController();
+
+        fxmlLoader2.setLocation(getClass().getResource("../resources/fxml/filterGame.fxml"));
+        Parent root2 = fxmlLoader2.load();
+        ControllerFilterGame controllerFilter = fxmlLoader2.getController();
         //Parent root = FXMLLoader.load(getClass().getResource("../resources/fxml/filterGame.fxml"));
         //fxmlLoader.load();
 
@@ -72,18 +79,19 @@ public class ControllerMain implements Initializable{
        // filter.setTreeView(treeView);
 
 
-
-
         Stage stage = new Stage();
         stage.setTitle("Games older than");
-        Scene scene = new Scene(root);
+        Scene scene = new Scene(root2);
 
-        ControllerFilterGame controller = fxmlLoader.getController();
-        controller.setTreeView(treeView);
+
+        controllerFilter.setController(controllerMain);
 
         scene.getStylesheets().add("com/wishlist/resources/css/Viper.css");
         stage.setScene(scene);
+
         stage.show();
+        //stage.showAndWait();
+        //filterOldGames();
     }
 
     /**
@@ -330,6 +338,19 @@ public class ControllerMain implements Initializable{
 
     public void filterOldGames(Date date)
     {
-
+        /*treeView.setPredicate(gameTreeItem -> {
+            DateFormat dateFormat2 = new SimpleDateFormat("dd/MM/yyyy");
+            Boolean flag = null;
+            try
+            {
+                flag = dateFormat2.parse(gameTreeItem.getValue().dateAdded.getValue()).equals(date);
+            }
+            catch (ParseException e)
+            {
+                e.printStackTrace();
+            }
+            flag = gameTreeItem.getValue().title.getValue().toLowerCase().contains("counter");
+            return flag;
+        });*/
     }
 }
