@@ -84695,6 +84695,10 @@
 	"name": "The Franz Kafka Videogame"
 },
 {
+	"appid": 392290,
+	"name": "Macroboy Y"
+},
+{
 	"appid": 392300,
 	"name": "RED Fuse: Rolling Explosive Device Demo"
 },
@@ -107753,6 +107757,10 @@
 {
 	"appid": 460510,
 	"name": "One Dark Night"
+},
+{
+	"appid": 460540,
+	"name": "Temple of Rust"
 },
 {
 	"appid": 460560,
@@ -138251,6 +138259,10 @@
 	"name": "Machine Hunt"
 },
 {
+	"appid": 546940,
+	"name": "Happy Empire 2 – The Lost Relic"
+},
+{
 	"appid": 546960,
 	"name": "Mechatroniks Attack"
 },
@@ -159685,6 +159697,10 @@
 {
 	"appid": 597890,
 	"name": "Fantasy Grounds - C1 The Mortality of Green (Castles and Crusades)"
+},
+{
+	"appid": 597900,
+	"name": "Eternum"
 },
 {
 	"appid": 597910,
@@ -211155,6 +211171,10 @@
 	"name": "Sharecare VR"
 },
 {
+	"appid": 730380,
+	"name": "SUBWAY CONSTRUCTION SIMULATOR 2017"
+},
+{
 	"appid": 730390,
 	"name": "Raji: An Ancient Epic"
 },
@@ -235991,6 +236011,10 @@
 	"name": "Changed"
 },
 {
+	"appid": 814560,
+	"name": "Eat my Shuriken and Die!"
+},
+{
 	"appid": 814570,
 	"name": "The Great Escape"
 },
@@ -248167,6 +248191,10 @@
 	"name": "VikingJourney"
 },
 {
+	"appid": 859870,
+	"name": "Frqncy"
+},
+{
 	"appid": 859900,
 	"name": "Owen to have fun!"
 },
@@ -248997,6 +249025,10 @@
 {
 	"appid": 863420,
 	"name": "Melting World Online"
+},
+{
+	"appid": 863430,
+	"name": "One person story"
 },
 {
 	"appid": 863470,
@@ -250468,7 +250500,7 @@
 },
 {
 	"appid": 869350,
-	"name": "Because We're Here ~Mohnblume und Blauerose~"
+	"name": "Because We're Here ~Mohnblume und Blauerose~ Act I"
 },
 {
 	"appid": 869430,
@@ -251747,6 +251779,10 @@
 	"name": "De Fobos y Deimos"
 },
 {
+	"appid": 875330,
+	"name": "Lost Lands: Ice Spell Demo"
+},
+{
 	"appid": 875340,
 	"name": "Dead Mayhem"
 },
@@ -252729,6 +252765,10 @@
 {
 	"appid": 880320,
 	"name": "魔装術師アカネ"
+},
+{
+	"appid": 880330,
+	"name": "LastByteStanding"
 },
 {
 	"appid": 880340,
@@ -254179,6 +254219,10 @@
 	"name": "Pilgrimage"
 },
 {
+	"appid": 888640,
+	"name": "Lovestory"
+},
+{
 	"appid": 888690,
 	"name": "Guess who ?"
 },
@@ -254429,6 +254473,10 @@
 {
 	"appid": 890180,
 	"name": "Ecchi Cards"
+},
+{
+	"appid": 890250,
+	"name": "DCS: M-2000C - Red Flag Campaign by Baltic Dragon"
 },
 {
 	"appid": 890290,
@@ -254960,7 +255008,7 @@
 },
 {
 	"appid": 892640,
-	"name": "CAP-FIG-CID (Colors Are Pretty, Fish Is Gross, Cake is Delicious)"
+	"name": "FAN'CIE VEER! (Fish Are Nasty, Cake Is Excellent Vektor Evading Emblazed Rapture)"
 },
 {
 	"appid": 892660,
@@ -255619,8 +255667,16 @@
 	"name": "Voxel Tanks OST"
 },
 {
+	"appid": 897330,
+	"name": "Coloring Pixels"
+},
+{
 	"appid": 897340,
 	"name": "Nous"
+},
+{
+	"appid": 897350,
+	"name": "Picross Fairytale - Nonogram: Red Riding Hood Secret Soundtrack"
 },
 {
 	"appid": 897360,
@@ -255751,6 +255807,10 @@
 	"name": "V.O.I.D."
 },
 {
+	"appid": 898310,
+	"name": "Happy Empire - The Marriage Voyage"
+},
+{
 	"appid": 898320,
 	"name": "Synth Ninja"
 },
@@ -255777,6 +255837,10 @@
 {
 	"appid": 898450,
 	"name": "UBERMOSH:SANTICIDE"
+},
+{
+	"appid": 898540,
+	"name": "Catgirl Magic: Fury Duel"
 },
 {
 	"appid": 898550,
@@ -255883,6 +255947,18 @@
 	"name": "Iron Danger"
 },
 {
+	"appid": 899350,
+	"name": "18+ Hentai Patch"
+},
+{
+	"appid": 899360,
+	"name": "DERE .EXE: The First Fear"
+},
+{
+	"appid": 899380,
+	"name": "Kitrinos - Artbook and OST arranged for Piano"
+},
+{
 	"appid": 899450,
 	"name": "Fesnia- Rose Donation"
 },
@@ -255935,8 +256011,20 @@
 	"name": "Fortune & Gloria Demo"
 },
 {
+	"appid": 900280,
+	"name": "Black Paradox Demo"
+},
+{
+	"appid": 900330,
+	"name": "King-Dom"
+},
+{
 	"appid": 903070,
 	"name": "War.io : Survival Battle Royale"
+},
+{
+	"appid": 903090,
+	"name": "PUZZLE: CATS & DOGS - Puzzle Pack: Summer Cats"
 },
 {
 	"appid": 903200,
