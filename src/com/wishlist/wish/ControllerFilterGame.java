@@ -23,11 +23,10 @@ public class ControllerFilterGame implements Initializable {
     @FXML
     private JFXTextField textField;
     @FXML
-    public JFXTreeTableView treeView;
+    public  ControllerMain controllerMain;
 
     @FXML
-    void confirm(ActionEvent event)
-    {
+    void confirm(ActionEvent event) throws ParseException {
         String input = textField.getText();
 
         if (input.isEmpty())
@@ -61,27 +60,11 @@ public class ControllerFilterGame implements Initializable {
                     DateFormat dateFormat = new SimpleDateFormat("dd/MM/YYYY");
                     Date result = cal.getTime();
 
-                    System.out.println(dateFormat.format(result));
-                        System.out.println(treeView.getExpandedItemCount());
-
-
-                    /*treeView.setPredicate(gameTreeItem -> {
-                        DateFormat dateFormat2 = new SimpleDateFormat("dd/MM/YYYY");
-                        // Boolean flag = gameTreeItem.getValue().dateAdded.getValue().toLowerCase().contains(newValue.toLowerCase());
-                        Boolean flag = null;
-                        try
-                        {
-
-                            flag = dateFormat2.parse(gameTreeItem.getValue().dateAdded.getValue()).before(date);
-                        }
-                        catch (ParseException e)
-                        {
-                            e.printStackTrace();
-                        }
-                            return flag;
-                        });*/
-
-
+                    String resultString = dateFormat.format(result);
+                    System.out.println(resultString);
+                    //result = dateFormat.parse(resultString);
+                    System.out.println(result);
+                    controllerMain.filterOldGames(result);
 
                     Stage stage = (Stage) textField.getScene().getWindow();
                     stage.close();
@@ -111,9 +94,9 @@ public class ControllerFilterGame implements Initializable {
         stage.close();
     }
 
-    public void setTreeView(JFXTreeTableView treeView)
+    public void setController (ControllerMain controllerMain)
     {
-        this.treeView = treeView;
+        this.controllerMain = controllerMain;
     }
 
     @Override

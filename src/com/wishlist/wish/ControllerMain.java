@@ -6,6 +6,8 @@ package com.wishlist.wish;
 
 import com.jfoenix.controls.*;
 import com.jfoenix.controls.datamodels.treetable.RecursiveTreeObject;
+import javafx.css.SimpleStyleableObjectProperty;
+import javafx.css.SimpleStyleableStringProperty;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -14,6 +16,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.MenuItem;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -45,6 +48,8 @@ public class ControllerMain implements Initializable{
     private JFXButton button1;
     @FXML
     private JFXButton button2;
+    @FXML
+    private Menu openSite;
 
     //FXML Methods
     @FXML
@@ -52,6 +57,7 @@ public class ControllerMain implements Initializable{
     {
         Parent root = FXMLLoader.load(getClass().getResource("../resources/fxml/customGame.fxml"));
         Stage stage = new Stage();
+        stage.getIcons().add(new Image("com/wishlist/resources/images/favicon.png"));
         stage.setTitle("Add a custom game");
         Scene scene = new Scene(root);
         scene.getStylesheets().add("com/wishlist/resources/css/Viper.css");
@@ -62,9 +68,16 @@ public class ControllerMain implements Initializable{
     @FXML
     void filterMyGames(ActionEvent event) throws IOException
     {
-        FXMLLoader fxmlLoader = new FXMLLoader();
-        fxmlLoader.setLocation(getClass().getResource("../resources/fxml/filterGame.fxml"));
-        Parent root = fxmlLoader.load();
+        FXMLLoader fxmlLoader1 = new FXMLLoader();
+        FXMLLoader fxmlLoader2 = new FXMLLoader();
+
+        fxmlLoader1.setLocation(getClass().getResource("../resources/fxml/wishlist.fxml"));
+        Parent root1 = fxmlLoader1.load();
+        ControllerMain controllerMain = fxmlLoader1.getController();
+
+        fxmlLoader2.setLocation(getClass().getResource("../resources/fxml/filterGame.fxml"));
+        Parent root2 = fxmlLoader2.load();
+        ControllerFilterGame controllerFilter = fxmlLoader2.getController();
         //Parent root = FXMLLoader.load(getClass().getResource("../resources/fxml/filterGame.fxml"));
         //fxmlLoader.load();
 
@@ -72,18 +85,70 @@ public class ControllerMain implements Initializable{
        // filter.setTreeView(treeView);
 
 
-
-
         Stage stage = new Stage();
+        stage.getIcons().add(new Image("com/wishlist/resources/images/favicon.png"));
         stage.setTitle("Games older than");
+        Scene scene = new Scene(root2);
+
+
+        controllerFilter.setController(controllerMain);
+
+        scene.getStylesheets().add("com/wishlist/resources/css/Viper.css");
+        stage.setScene(scene);
+
+        stage.show();
+        //stage.showAndWait();
+        //filterOldGames();
+    }
+
+    @FXML
+    void openAbout(ActionEvent event) throws IOException
+    {
+        Parent root = FXMLLoader.load(getClass().getResource("../resources/fxml/about.fxml"));
+        Stage stage = new Stage();
+        stage.getIcons().add(new Image("com/wishlist/resources/images/favicon.png"));
+        stage.setTitle("About");
+        Scene scene = new Scene(root);
+        scene.getStylesheets().add("com/wishlist/resources/css/Viper.css");
+        stage.setScene(scene);
+        stage.show();
+    }
+
+    @FXML
+    void deleteAll(ActionEvent event) throws IOException
+    {
+        FXMLLoader fxmlLoader = new FXMLLoader();
+        fxmlLoader.setLocation(getClass().getResource("../resources/fxml/deleteAll.fxml"));
+        Parent root = fxmlLoader.load();
+        Stage stage = new Stage();
+        stage.getIcons().add(new Image("com/wishlist/resources/images/favicon.png"));
+        stage.setTitle("About");
         Scene scene = new Scene(root);
 
-        ControllerFilterGame controller = fxmlLoader.getController();
+        ControllerDeleteAll controller = fxmlLoader.getController();
         controller.setTreeView(treeView);
 
         scene.getStylesheets().add("com/wishlist/resources/css/Viper.css");
         stage.setScene(scene);
         stage.show();
+    }
+
+    @FXML
+    void openSteam(ActionEvent event) throws URISyntaxException, IOException
+    {
+        java.awt.Desktop.getDesktop().browse(new java.net.URI("https://store.steampowered.com"));
+    }
+
+    @FXML
+    void openOrigin(ActionEvent event) throws URISyntaxException, IOException
+    {
+        java.awt.Desktop.getDesktop().browse(new java.net.URI("https://www.origin.com"));
+    }
+
+    @FXML
+    void openGog(ActionEvent event) throws URISyntaxException, IOException
+    {
+        java.awt.Desktop.getDesktop().browse(new java.net.URI("https://www.gog.com/"));
     }
 
     /**
@@ -105,7 +170,7 @@ public class ControllerMain implements Initializable{
     public void initialize(URL location, ResourceBundle resources)
     {
         enableFilterButton(checkWishlistIfAny());
-
+        openSite.setStyle("-fx-text-fill: white");
         /**
          * Creates and loads the columns in the JFXTreeTableView
          */
@@ -248,6 +313,7 @@ public class ControllerMain implements Initializable{
                 treeView.getSelectionModel().clearSelection();
                 removeGame(gameToDelete);
                 enableFilterButton(checkWishlistIfAny());
+
             });
             return row;
         });
@@ -330,6 +396,19 @@ public class ControllerMain implements Initializable{
 
     public void filterOldGames(Date date)
     {
-
+        /*treeView.setPredicate(gameTreeItem -> {
+            DateFormat dateFormat2 = new SimpleDateFormat("dd/MM/yyyy");
+            Boolean flag = null;
+            try
+            {
+                flag = dateFormat2.parse(gameTreeItem.getValue().dateAdded.getValue()).equals(date);
+            }
+            catch (ParseException e)
+            {
+                e.printStackTrace();
+            }
+            flag = gameTreeItem.getValue().title.getValue().toLowerCase().contains("counter");
+            return flag;
+        });*/
     }
 }
