@@ -11,6 +11,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import javafx.scene.image.Image;
 
 import java.awt.*;
 import java.io.FileNotFoundException;
@@ -26,6 +27,8 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("../resources/fxml/wishlist.fxml"));
+        //Image icon = new Image("com/wishlist/resources/images/favicon.ico");
+        primaryStage.getIcons().add(new Image("com/wishlist/resources/images/favicon.png"));
         primaryStage.setTitle("Wishlist");
         Scene scene = new Scene(root, 1080, 720);
         scene.getStylesheets().add("com/wishlist/resources/css/Viper.css");
@@ -62,13 +65,6 @@ public class Main extends Application {
     }
 }
 //Todos
-//todo: Create About dialog information
-//todo: Add ability to delete all games from wish list
-//todo: Filter wish listed games based on date added
-//todo: Add an icon to the app window
-//todo: Colour code games based on date added
-//todo: Do some css styling
-//todo: Add links to quickly open main game sites (Steam, origin, etc.);
 //todo: Add a custom font
 
 //Bugfixes
@@ -77,8 +73,10 @@ public class Main extends Application {
 
 //Future todos
 //todo: Add game images alongside the titles
+//todo: Filter wish listed games based on date added
 
 //Potential todos
+//todo: Colour code games based on date added
 //todo: Find a way to get release dates for games
 //todo: Find a way to get ratings for games
 //todo: Find a way to get tags for games

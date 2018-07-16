@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/wishlist/wish/ControllerDeleteAll.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/WishList/com/wishlist/wish/ControllerFilterGame.class" afterPath="$PROJECT_DIR$/out/production/WishList/com/wishlist/wish/ControllerFilterGame.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/WishList/com/wishlist/resources/database/database.json" afterPath="$PROJECT_DIR$/out/production/WishList/com/wishlist/resources/database/database.json" />
+      <change beforePath="$PROJECT_DIR$/out/production/WishList/com/wishlist/resources/database/wishlist.txt" afterPath="$PROJECT_DIR$/out/production/WishList/com/wishlist/resources/database/wishlist.txt" />
+      <change beforePath="$PROJECT_DIR$/out/production/WishList/com/wishlist/resources/fxml/wishlist.fxml" afterPath="$PROJECT_DIR$/out/production/WishList/com/wishlist/resources/fxml/wishlist.fxml" />
       <change beforePath="$PROJECT_DIR$/out/production/WishList/com/wishlist/wish/ControllerMain$1.class" afterPath="$PROJECT_DIR$/out/production/WishList/com/wishlist/wish/ControllerMain$1.class" />
       <change beforePath="$PROJECT_DIR$/out/production/WishList/com/wishlist/wish/ControllerMain$2.class" afterPath="$PROJECT_DIR$/out/production/WishList/com/wishlist/wish/ControllerMain$2.class" />
       <change beforePath="$PROJECT_DIR$/out/production/WishList/com/wishlist/wish/ControllerMain.class" afterPath="$PROJECT_DIR$/out/production/WishList/com/wishlist/wish/ControllerMain.class" />
-      <change beforePath="$PROJECT_DIR$/src/com/wishlist/wish/ControllerFilterGame.java" afterPath="$PROJECT_DIR$/src/com/wishlist/wish/ControllerFilterGame.java" />
+      <change beforePath="$PROJECT_DIR$/out/production/WishList/com/wishlist/wish/Main.class" afterPath="$PROJECT_DIR$/out/production/WishList/com/wishlist/wish/Main.class" />
+      <change beforePath="$PROJECT_DIR$/src/com/wishlist/resources/database/database.json" afterPath="$PROJECT_DIR$/src/com/wishlist/resources/database/database.json" />
+      <change beforePath="$PROJECT_DIR$/src/com/wishlist/resources/database/wishlist.txt" afterPath="$PROJECT_DIR$/src/com/wishlist/resources/database/wishlist.txt" />
+      <change beforePath="$PROJECT_DIR$/src/com/wishlist/resources/fxml/wishlist.fxml" afterPath="$PROJECT_DIR$/src/com/wishlist/resources/fxml/wishlist.fxml" />
       <change beforePath="$PROJECT_DIR$/src/com/wishlist/wish/ControllerMain.java" afterPath="$PROJECT_DIR$/src/com/wishlist/wish/ControllerMain.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/wishlist/wish/Main.java" afterPath="$PROJECT_DIR$/src/com/wishlist/wish/Main.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,48 +73,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ControllerFilterGame.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/ControllerFilterGame.java">
+      <file leaf-file-name="ControllerDeleteAll.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/ControllerDeleteAll.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+            <state relative-caret-position="408">
+              <caret line="42" column="33" lean-forward="false" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2943#2944#0" expanded="true" />
-                <element signature="e#2995#2996#0" expanded="true" />
+                <element signature="e#1332#1333#0" expanded="true" />
+                <element signature="e#1355#1356#0" expanded="true" />
+                <element signature="e#1508#1509#0" expanded="true" />
+                <element signature="e#1548#1549#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DatabaseAllGames.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/DatabaseAllGames.java">
+      <file leaf-file-name="DatabaseMyGames.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/DatabaseMyGames.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="-1598">
+              <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="41" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ControllerCustomGame.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/ControllerCustomGame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-246">
-              <caret line="22" column="37" lean-forward="false" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -115,16 +101,34 @@
       <file leaf-file-name="ControllerMain.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/ControllerMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3035">
-              <caret line="353" column="13" lean-forward="false" selection-start-line="353" selection-start-column="13" selection-end-line="353" selection-end-column="13" />
+            <state relative-caret-position="493">
+              <caret line="150" column="83" lean-forward="false" selection-start-line="150" selection-start-column="83" selection-end-line="150" selection-end-column="83" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#addCustomGame#0;class#ControllerMain#0" expanded="false" />
+                <element signature="method#filterMyGames#0;class#ControllerMain#0" expanded="false" />
+                <element signature="method#openAbout#0;class#ControllerMain#0" expanded="false" />
+                <element signature="method#deleteAll#0;class#ControllerMain#0" expanded="false" />
                 <element signature="method#enableFilterButton#0;class#ControllerMain#0" expanded="false" />
-                <element signature="e#5707#5899#0" expanded="false" />
-                <element signature="e#6515#6898#0" expanded="false" />
-                <element signature="e#7094#7319#0" expanded="false" />
-                <element signature="e#7440#10036#0" expanded="false" />
-                <element signature="e#10163#12804#0" expanded="false" />
+                <element signature="method#initialize#0;class#ControllerMain#0" expanded="false" />
+                <element signature="e#7867#8059#0" expanded="false" />
+                <element signature="e#8675#9058#0" expanded="false" />
+                <element signature="e#9254#9479#0" expanded="false" />
+                <element signature="e#12324#14965#0" expanded="false" />
+                <element signature="method#filterOldGames#0;class#ControllerMain#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="66" column="7" lean-forward="false" selection-start-line="66" selection-start-column="7" selection-end-line="66" selection-end-column="7" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -176,11 +180,12 @@
         <option value="$PROJECT_DIR$/src/com/wishlist/wish/MyGame.java" />
         <option value="$PROJECT_DIR$/src/com/wishlist/wish/DatabaseAllGames.java" />
         <option value="$PROJECT_DIR$/src/com/wishlist/wish/DatabaseMyGames.java" />
-        <option value="$PROJECT_DIR$/src/com/wishlist/wish/Main.java" />
         <option value="$PROJECT_DIR$/src/com/wishlist/wish/ControllerFilterGames.java" />
         <option value="$PROJECT_DIR$/src/com/wishlist/wish/ControllerCustomGame.java" />
         <option value="$PROJECT_DIR$/src/com/wishlist/wish/ControllerFilterGame.java" />
+        <option value="$PROJECT_DIR$/src/com/wishlist/wish/ControllerDeleteAll.java" />
         <option value="$PROJECT_DIR$/src/com/wishlist/wish/ControllerMain.java" />
+        <option value="$PROJECT_DIR$/src/com/wishlist/wish/Main.java" />
       </list>
     </option>
   </component>
@@ -270,6 +275,9 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wishlist.wish" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Failai\Projects\WishList\src\com\wishlist\resources\css" />
       <recent name="D:\Failai\Projects\WishList\src\com\wishlist\resources\fxml" />
@@ -514,7 +522,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22801302" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -557,13 +565,18 @@
           <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/wishlist/wish/ControllerDeleteAll.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="18" />
+      <option name="time" value="21" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="dateFormat2.parse(gameTreeItem.getValue().dateAdded.getValue())" language="JAVA" />
-        <watch expression="gameTreeItem.getValue().dateAdded.getValue()" language="JAVA" />
+        <watch expression="getGamesMy()" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
@@ -573,6 +586,31 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>getGamesMy()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>treeView.getTreeItem(0).getParent().getChildren()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>treeView.getTreeItem(0).getChildren()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>treeView.getTreeItem(0)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>treeView</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>gameTreeItem.getValue().dateAdded.getValue()</expression-string>
         <language-id>JAVA</language-id>
@@ -598,35 +636,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>game.get(i).getAppid()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>game.size()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/ControllerMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#enableFilterButton#0;class#ControllerMain#0" expanded="false" />
-            <element signature="e#5707#5899#0" expanded="false" />
-            <element signature="e#6515#6898#0" expanded="false" />
-            <element signature="e#7094#7319#0" expanded="false" />
-            <element signature="e#7440#10036#0" expanded="false" />
-            <element signature="e#10163#12804#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wishlist/resources/fxml/wishlist.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
@@ -649,7 +661,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -670,12 +685,17 @@
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#addCustomGame#0;class#ControllerMain#0" expanded="false" />
+            <element signature="method#filterMyGames#0;class#ControllerMain#0" expanded="false" />
+            <element signature="method#openAbout#0;class#ControllerMain#0" expanded="false" />
+            <element signature="method#deleteAll#0;class#ControllerMain#0" expanded="false" />
             <element signature="method#enableFilterButton#0;class#ControllerMain#0" expanded="false" />
-            <element signature="e#5707#5899#0" expanded="false" />
-            <element signature="e#6515#6898#0" expanded="false" />
-            <element signature="e#7094#7319#0" expanded="false" />
-            <element signature="e#7440#10036#0" expanded="false" />
-            <element signature="e#10163#12804#0" expanded="false" />
+            <element signature="method#initialize#0;class#ControllerMain#0" expanded="false" />
+            <element signature="e#7867#8059#0" expanded="false" />
+            <element signature="e#8675#9058#0" expanded="false" />
+            <element signature="e#9254#9479#0" expanded="false" />
+            <element signature="e#12324#14965#0" expanded="false" />
+            <element signature="method#filterOldGames#0;class#ControllerMain#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -813,17 +833,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/DatabaseMyGames.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="757">
-          <caret line="148" column="1" lean-forward="false" selection-start-line="148" selection-start-column="1" selection-end-line="148" selection-end-column="1" />
-          <folding>
-            <element signature="e#3873#3874#0" expanded="false" />
-            <element signature="e#3900#3901#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/javafx-src.zip!/javafx/scene/control/TextInputControl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -923,16 +932,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/ControllerCustomGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-246">
-          <caret line="22" column="37" lean-forward="false" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/DatabaseAllGames.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
@@ -955,18 +954,6 @@
           <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
             <element signature="e#1074#1075#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/ControllerFilterGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2943#2944#0" expanded="true" />
-            <element signature="e#2995#2996#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1005,27 +992,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/ControllerFilterGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2943#2944#0" expanded="false" />
+            <element signature="e#2995#2996#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/ControllerCustomGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="22" column="37" lean-forward="false" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/DatabaseMyGames.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1598">
+          <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/ControllerDeleteAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="42" column="33" lean-forward="false" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+          <folding>
+            <element signature="e#1332#1333#0" expanded="true" />
+            <element signature="e#1355#1356#0" expanded="true" />
+            <element signature="e#1508#1509#0" expanded="true" />
+            <element signature="e#1548#1549#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/ControllerMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3035">
-          <caret line="353" column="13" lean-forward="false" selection-start-line="353" selection-start-column="13" selection-end-line="353" selection-end-column="13" />
+        <state relative-caret-position="493">
+          <caret line="150" column="83" lean-forward="false" selection-start-line="150" selection-start-column="83" selection-end-line="150" selection-end-column="83" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#addCustomGame#0;class#ControllerMain#0" expanded="false" />
+            <element signature="method#filterMyGames#0;class#ControllerMain#0" expanded="false" />
+            <element signature="method#openAbout#0;class#ControllerMain#0" expanded="false" />
+            <element signature="method#deleteAll#0;class#ControllerMain#0" expanded="false" />
             <element signature="method#enableFilterButton#0;class#ControllerMain#0" expanded="false" />
-            <element signature="e#5707#5899#0" expanded="false" />
-            <element signature="e#6515#6898#0" expanded="false" />
-            <element signature="e#7094#7319#0" expanded="false" />
-            <element signature="e#7440#10036#0" expanded="false" />
-            <element signature="e#10163#12804#0" expanded="false" />
+            <element signature="method#initialize#0;class#ControllerMain#0" expanded="false" />
+            <element signature="e#7867#8059#0" expanded="false" />
+            <element signature="e#8675#9058#0" expanded="false" />
+            <element signature="e#9254#9479#0" expanded="false" />
+            <element signature="e#12324#14965#0" expanded="false" />
+            <element signature="method#filterOldGames#0;class#ControllerMain#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wishlist/wish/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="595">
+          <caret line="66" column="7" lean-forward="false" selection-start-line="66" selection-start-column="7" selection-end-line="66" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

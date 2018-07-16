@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="130.0" prefWidth="453.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.wishlist.wish.ControllerDeleteAll">
+   <children>
+      <Label layoutX="21.0" layoutY="22.0" text="Are you sure you want to delete all games from your wishlist?" textFill="#77b901">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="button" buttonType="RAISED" focusTraversable="false" layoutX="215.0" layoutY="66.0" onAction="#cancel" prefHeight="48.0" prefWidth="100.0" ripplerFill="#77b901" text="No" />
+      <JFXButton buttonType="RAISED" focusTraversable="false" layoutX="328.0" layoutY="66.0" onAction="#confirm" prefHeight="48.0" prefWidth="100.0" ripplerFill="#77b901" text="Yes" />
+   </children>
+</AnchorPane>
