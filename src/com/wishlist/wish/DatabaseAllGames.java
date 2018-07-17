@@ -26,7 +26,16 @@ public class DatabaseAllGames
     {
         URL website = new URL("http://api.steampowered.com/ISteamApps/GetAppList/v0001/");
         ReadableByteChannel rbc = Channels.newChannel(website.openStream());
-        FileOutputStream fos = new FileOutputStream("src/com/wishlist/resources/database/database.json");
+        FileOutputStream fos = null;
+        try
+        {
+            fos = new FileOutputStream("src/com/wishlist/resources/database/database.json");
+        }
+        catch (FileNotFoundException e)
+        {
+            new File("src/com/wishlist/resources/database").mkdirs();
+            fos = new FileOutputStream("src/com/wishlist/resources/database/database.json");
+        }
         fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
 
         System.out.println(">> Downloaded steam game list");
