@@ -7,6 +7,15 @@ package com.wishlist.wish;
 import java.awt.*;
 import java.io.File;
 import java.io.IOException;
+import javafx.application.Application;
+import javafx.geometry.Pos;
+import javafx.scene.Scene;
+import javafx.scene.control.Label;
+import javafx.scene.image.*;
+import javafx.scene.layout.VBox;
+import javafx.scene.text.*;
+import javafx.scene.text.Font;
+import javafx.stage.Stage;
 
 public class resourceManager {
 
@@ -17,8 +26,8 @@ public class resourceManager {
      */
     public static void loadFont() throws IOException, FontFormatException
     {
-        GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment();
-        ge.registerFont(Font.createFont(Font.TRUETYPE_FONT, new File("src/com/wishlist/resources/font/Abel-Regular.ttf")));
+        Font.loadFont(resourceManager.class.getResource("src/com/wishlist/resources/font/Abel-Regular.ttf").toExternalForm(), 10);
+
         System.out.println(">> Loaded custom font");
     }
 }
