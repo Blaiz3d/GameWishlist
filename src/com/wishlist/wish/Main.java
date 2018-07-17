@@ -18,9 +18,9 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 
-import static com.wishlist.wish.DatabaseAllGames.downloadGameDatabase;
-import static com.wishlist.wish.DatabaseAllGames.writeToLocalDatabase;
+import static com.wishlist.wish.DatabaseAllGames.*;
 import static com.wishlist.wish.DatabaseMyGames.*;
+import static com.wishlist.wish.resourceManager.loadFont;
 
 public class Main extends Application {
 
@@ -56,10 +56,10 @@ public class Main extends Application {
 
     public static void main(String[] args) throws IOException, FontFormatException
     {
+        //loadFont();
         downloadGameDatabase();
         writeToLocalDatabase();
         readFromFile();
-        //loadFont();
 
         launch(args);
     }

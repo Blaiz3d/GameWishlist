@@ -144139,6 +144139,10 @@
 	"name": "Max Focus - Awesomenauts Character"
 },
 {
+	"appid": 561560,
+	"name": "Snork Gunk - Awesomenauts Character"
+},
+{
 	"appid": 561561,
 	"name": "Qi'Tara - Awesomenauts Character"
 },
@@ -173335,6 +173339,10 @@
 	"name": "Steel Division: Normandy 44 Modding Assets"
 },
 {
+	"appid": 628260,
+	"name": "Endless Winter - Map Editor"
+},
+{
 	"appid": 628280,
 	"name": "ZHEROS - The forgotten land"
 },
@@ -175485,6 +175493,10 @@
 {
 	"appid": 634014,
 	"name": "Awesomenauts - Dark Masquerade Qi'Tara Skin"
+},
+{
+	"appid": 634016,
+	"name": "Awesomenauts - Bozo Gunk Skin"
 },
 {
 	"appid": 634020,
@@ -180004,7 +180016,7 @@
 },
 {
 	"appid": 640900,
-	"name": "National Flags - Heads Pack"
+	"name": "Flags of the World Heads Pack"
 },
 {
 	"appid": 640910,
@@ -187213,6 +187225,10 @@
 {
 	"appid": 655930,
 	"name": "Merri Puzzle"
+},
+{
+	"appid": 655940,
+	"name": "Elo Hell"
 },
 {
 	"appid": 655950,
@@ -201307,6 +201323,10 @@
 	"name": "Civil War: 1864"
 },
 {
+	"appid": 699870,
+	"name": "Commands & Colors: Ancients"
+},
+{
 	"appid": 699920,
 	"name": "Despotism 3k"
 },
@@ -204456,7 +204476,7 @@
 },
 {
 	"appid": 710640,
-	"name": "Underground Club 2018"
+	"name": "PRO DRIFT RELOADED"
 },
 {
 	"appid": 710650,
@@ -218619,6 +218639,26 @@
 	"name": "Rocksmith® 2014 Edition – Remastered – Run-D.M.C. - “Rock Box”"
 },
 {
+	"appid": 753827,
+	"name": "Rocksmith® 2014 Edition – Remastered – Variety Song Pack XVI"
+},
+{
+	"appid": 753828,
+	"name": "Rocksmith® 2014 Edition – Remastered – Duane Eddy - “Rebel Rouser”"
+},
+{
+	"appid": 753829,
+	"name": "Rocksmith® 2014 Edition – Remastered – Pantera - “This Love”"
+},
+{
+	"appid": 753830,
+	"name": "Rocksmith® 2014 Edition – Remastered – The Proclaimers - “I’m Gonna Be (500 Miles)”"
+},
+{
+	"appid": 753831,
+	"name": "Rocksmith® 2014 Edition – Remastered – Nina Simone - “Feeling Good”"
+},
+{
 	"appid": 753900,
 	"name": "End Space"
 },
@@ -226648,7 +226688,7 @@
 },
 {
 	"appid": 782180,
-	"name": "打倒魔王的方法"
+	"name": "The way to defeat the Archfiend / 打倒魔王的方法"
 },
 {
 	"appid": 782190,
@@ -236803,6 +236843,10 @@
 	"name": "ToaZZle"
 },
 {
+	"appid": 817480,
+	"name": "Total War Saga: Thrones of Britannia - Assembly Kit BETA"
+},
+{
 	"appid": 817490,
 	"name": "Viki Spotter: Around The World"
 },
@@ -236957,6 +237001,10 @@
 {
 	"appid": 818060,
 	"name": "Super Saurio Fly"
+},
+{
+	"appid": 818070,
+	"name": "Draoi"
 },
 {
 	"appid": 818080,
@@ -237508,7 +237556,7 @@
 },
 {
 	"appid": 819990,
-	"name": "Ather: Chapter 1"
+	"name": "Ether : Chapter 1"
 },
 {
 	"appid": 820010,
@@ -238855,6 +238903,10 @@
 	"name": "The Honor List"
 },
 {
+	"appid": 824960,
+	"name": "Future World"
+},
+{
 	"appid": 824990,
 	"name": "Intersection"
 },
@@ -240027,6 +240079,58 @@
 	"name": "Mama Farm"
 },
 {
+	"appid": 828610,
+	"name": "Don't Bite Me Bro! - Weapon Pack 1"
+},
+{
+	"appid": 828612,
+	"name": "Don't Bite Me Bro! - AK47"
+},
+{
+	"appid": 828613,
+	"name": "Don't Bite Me Bro! - Shotgun"
+},
+{
+	"appid": 828614,
+	"name": "Don't Bite Me Bro! - Rifle"
+},
+{
+	"appid": 828615,
+	"name": "Don't Bite Me Bro! - Katana"
+},
+{
+	"appid": 828616,
+	"name": "Don't Bite Me Bro! - Nimbus"
+},
+{
+	"appid": 828620,
+	"name": "Don't Bite Me Bro! - Vehicle Pack 1"
+},
+{
+	"appid": 828621,
+	"name": "Don't Bite Me Bro! - Chopper"
+},
+{
+	"appid": 828622,
+	"name": "Don't Bite Me Bro! - ATV"
+},
+{
+	"appid": 828623,
+	"name": "Don't Bite Me Bro! - Spycar"
+},
+{
+	"appid": 828624,
+	"name": "Don't Bite Me Bro! - Bearmobile"
+},
+{
+	"appid": 828625,
+	"name": "Don't Bite Me Bro! - Riddle Bus"
+},
+{
+	"appid": 828626,
+	"name": "Don't Bite Me Bro! - Monster Truck"
+},
+{
 	"appid": 828630,
 	"name": "Outbreak: The Nightmare Chronicles - Chapter 2"
 },
@@ -240621,6 +240725,10 @@
 {
 	"appid": 830400,
 	"name": "Zombie Exodus: Safe Haven - Part Two"
+},
+{
+	"appid": 830410,
+	"name": "Nogalious"
 },
 {
 	"appid": 830420,
@@ -242385,6 +242493,10 @@
 {
 	"appid": 837600,
 	"name": "The Royal Marines Commando"
+},
+{
+	"appid": 837610,
+	"name": "Mary Skelter: Nightmares"
 },
 {
 	"appid": 837640,
@@ -244451,6 +244563,10 @@
 	"name": "Disdoored"
 },
 {
+	"appid": 845640,
+	"name": "Sonic Mania - Encore DLC"
+},
+{
 	"appid": 845650,
 	"name": "Meteor Shower"
 },
@@ -244751,8 +244867,20 @@
 	"name": "The Chronicles of Quiver Dick"
 },
 {
+	"appid": 846900,
+	"name": "Chappaquiddick"
+},
+{
 	"appid": 846910,
 	"name": "I Can Only Imagine"
+},
+{
+	"appid": 846920,
+	"name": "Tyler Perry's Acrimony"
+},
+{
+	"appid": 846960,
+	"name": "Monster Hunt 2"
 },
 {
 	"appid": 846980,
@@ -244761,6 +244889,10 @@
 {
 	"appid": 846990,
 	"name": "How To Get Rid of a Body and Still Be Friends"
+},
+{
+	"appid": 847000,
+	"name": "Jet Trash"
 },
 {
 	"appid": 847090,
@@ -246955,6 +247087,10 @@
 	"name": "Johnny Appleweed"
 },
 {
+	"appid": 854530,
+	"name": "Paper Shakespeare: Stick Julius Caesar (with a dagger)"
+},
+{
 	"appid": 854540,
 	"name": "Paper Shakespeare: Loves Labor(s) Lost"
 },
@@ -248181,6 +248317,10 @@
 {
 	"appid": 859760,
 	"name": "Boy's Love"
+},
+{
+	"appid": 859790,
+	"name": "Tyler Perry's Acrimony: Unleashing Acrimony"
 },
 {
 	"appid": 859820,
@@ -249755,6 +249895,10 @@
 	"name": "Asylamba : Influence - Wallpapers"
 },
 {
+	"appid": 866630,
+	"name": "You Were Never Really Here"
+},
+{
 	"appid": 866700,
 	"name": "Echoes of the Past: Wolf Healer Collector's Edition"
 },
@@ -249973,6 +250117,10 @@
 {
 	"appid": 867750,
 	"name": "Gull Kebap VR"
+},
+{
+	"appid": 867760,
+	"name": "INVASION OF THE BOX PEOPLE"
 },
 {
 	"appid": 867780,
@@ -250387,6 +250535,10 @@
 	"name": "ARENA an Age of Barbarians story - She-Red"
 },
 {
+	"appid": 868880,
+	"name": "Candy Raid: The Factory"
+},
+{
 	"appid": 868890,
 	"name": "Horny Fighter"
 },
@@ -250397,6 +250549,10 @@
 {
 	"appid": 868910,
 	"name": "Cryptozookeeper"
+},
+{
+	"appid": 868920,
+	"name": "Pylow"
 },
 {
 	"appid": 868930,
@@ -250500,7 +250656,7 @@
 },
 {
 	"appid": 869350,
-	"name": "Because We're Here ~Mohnblume und Blauerose~ Act I"
+	"name": "Because We're Here ~Mohnblume und Blauerose~"
 },
 {
 	"appid": 869430,
@@ -250923,6 +251079,26 @@
 	"name": "!LABrpgUP!"
 },
 {
+	"appid": 871030,
+	"name": "You Were Never Really Here: From Book to Film"
+},
+{
+	"appid": 871031,
+	"name": "You Were Never Really Here: Photo Gallery"
+},
+{
+	"appid": 871040,
+	"name": "Chappaquiddick: A Reckoning: Revisiting Chappaquiddick"
+},
+{
+	"appid": 871041,
+	"name": "Chappaquiddick: Bridge to the Past: Editing the Film"
+},
+{
+	"appid": 871060,
+	"name": "Future World: Behind the Scenes"
+},
+{
 	"appid": 871100,
 	"name": "Animyst"
 },
@@ -251157,6 +251333,10 @@
 {
 	"appid": 872300,
 	"name": "RIFT - Blood Raptor Power Pack"
+},
+{
+	"appid": 872310,
+	"name": "Grid Games: Color Coded"
 },
 {
 	"appid": 872330,
@@ -252343,6 +252523,10 @@
 	"name": "One Day for Revenge"
 },
 {
+	"appid": 878110,
+	"name": "Fuel Renegades"
+},
+{
 	"appid": 878120,
 	"name": "UniteStar"
 },
@@ -252983,6 +253167,10 @@
 	"name": "Trove - Geode Companion Pack 1"
 },
 {
+	"appid": 881591,
+	"name": "Trove - Geode Companion Pack 2"
+},
+{
 	"appid": 881600,
 	"name": "Fasaria World: Ancients of Moons Server"
 },
@@ -253081,6 +253269,10 @@
 {
 	"appid": 882260,
 	"name": "HellMaze"
+},
+{
+	"appid": 882270,
+	"name": "Clicker Heroes 2 Soundtrack"
 },
 {
 	"appid": 882290,
@@ -253205,6 +253397,10 @@
 {
 	"appid": 882800,
 	"name": "New Ice York OST"
+},
+{
+	"appid": 882830,
+	"name": " Fallen Beast (Project Ora) US Version "
 },
 {
 	"appid": 882890,
@@ -253569,6 +253765,10 @@
 {
 	"appid": 885110,
 	"name": "Imperialism: Fate of India"
+},
+{
+	"appid": 885120,
+	"name": "Werewolves: Haven Rising"
 },
 {
 	"appid": 885170,
@@ -253939,6 +254139,10 @@
 	"name": "Warhammer 40,000: Space Wolf - Sentry Gun Pack"
 },
 {
+	"appid": 887050,
+	"name": "Crossout - Corrida Pack"
+},
+{
 	"appid": 887070,
 	"name": "A Roll-Back Story Demo"
 },
@@ -254025,6 +254229,10 @@
 {
 	"appid": 887660,
 	"name": "Brath: Brain and Math"
+},
+{
+	"appid": 887730,
+	"name": "Horde: Zombie Outbreak"
 },
 {
 	"appid": 887750,
@@ -254407,6 +254615,10 @@
 	"name": "Empire"
 },
 {
+	"appid": 889580,
+	"name": "Hit The Hive Demo"
+},
+{
 	"appid": 889590,
 	"name": "Archangel™: Hellfire Demo"
 },
@@ -254473,6 +254685,14 @@
 {
 	"appid": 890180,
 	"name": "Ecchi Cards"
+},
+{
+	"appid": 890210,
+	"name": "Kids Learn"
+},
+{
+	"appid": 890220,
+	"name": "Math Fun"
 },
 {
 	"appid": 890250,
@@ -254911,6 +255131,10 @@
 	"name": "Fantasy Grounds - Pathfinder RPG - NPC Codex (PFRPG)"
 },
 {
+	"appid": 891950,
+	"name": "Wagers of War"
+},
+{
 	"appid": 891970,
 	"name": "Train Tower Defense"
 },
@@ -255009,6 +255233,10 @@
 {
 	"appid": 892640,
 	"name": "FAN'CIE VEER! (Fish Are Nasty, Cake Is Excellent Vektor Evading Emblazed Rapture)"
+},
+{
+	"appid": 892650,
+	"name": "Play With Kizami"
 },
 {
 	"appid": 892660,
@@ -255131,6 +255359,10 @@
 	"name": "NightmareBullet"
 },
 {
+	"appid": 893490,
+	"name": "Team A.R.G. Anthology"
+},
+{
 	"appid": 893510,
 	"name": "Resort \"Waifu Bay\""
 },
@@ -255177,6 +255409,10 @@
 {
 	"appid": 893870,
 	"name": "Trials of Ascension: Exile"
+},
+{
+	"appid": 893900,
+	"name": "Astral Gunners"
 },
 {
 	"appid": 893950,
@@ -255331,6 +255567,10 @@
 	"name": "Talk in der Alm: #07.6 Play by the rules II"
 },
 {
+	"appid": 894610,
+	"name": "Hungry Piggy Donuts Mania"
+},
+{
 	"appid": 894690,
 	"name": "IL-2 Sturmovik: Hs 129 B-2 Collector Plane"
 },
@@ -255435,12 +255675,20 @@
 	"name": "Total 15"
 },
 {
+	"appid": 895560,
+	"name": "Sci-fi highway racer"
+},
+{
 	"appid": 895600,
 	"name": "Mojo"
 },
 {
 	"appid": 895690,
 	"name": "Sword Art Online: The Movie - Ordinal Scale"
+},
+{
+	"appid": 895720,
+	"name": "PUSS! ｓｏｕｎｄｔｒａｃｋ"
 },
 {
 	"appid": 895790,
@@ -255475,6 +255723,10 @@
 	"name": "Chess Puzzles - 100 by Liam"
 },
 {
+	"appid": 896101,
+	"name": "Chess Puzzles - 100 by Emma"
+},
+{
 	"appid": 896110,
 	"name": "Crime Stories: Days of Vengeance"
 },
@@ -255495,6 +255747,10 @@
 	"name": "The Grand Museum VR"
 },
 {
+	"appid": 896260,
+	"name": "Noahmund - Artbook"
+},
+{
 	"appid": 896270,
 	"name": "TAL: Arctic - Soundtrack"
 },
@@ -255507,8 +255763,16 @@
 	"name": "Space Explorers: Reload"
 },
 {
+	"appid": 896370,
+	"name": "Navigator"
+},
+{
 	"appid": 896380,
 	"name": "Before Nightfall"
+},
+{
+	"appid": 896400,
+	"name": "Alien Attack: Pocket Edition"
 },
 {
 	"appid": 896540,
@@ -255517,6 +255781,14 @@
 {
 	"appid": 896570,
 	"name": "PUZZLE: CATS & DOGS"
+},
+{
+	"appid": 896650,
+	"name": "End War RTS"
+},
+{
+	"appid": 896670,
+	"name": "前夜祭"
 },
 {
 	"appid": 896700,
@@ -255663,6 +255935,18 @@
 	"name": "Motor Gladiators"
 },
 {
+	"appid": 897230,
+	"name": "Kizami's album - JK"
+},
+{
+	"appid": 897240,
+	"name": "Kizami's album - Dressing game"
+},
+{
+	"appid": 897250,
+	"name": "Kizami's album - Office Lady"
+},
+{
 	"appid": 897310,
 	"name": "Voxel Tanks OST"
 },
@@ -255703,6 +255987,10 @@
 	"name": "Study of Unusual: Forest of Secrets"
 },
 {
+	"appid": 897560,
+	"name": "Waveform Wipeout"
+},
+{
 	"appid": 897580,
 	"name": "Avem888"
 },
@@ -255739,6 +256027,10 @@
 	"name": "The Queen of Blackwood High"
 },
 {
+	"appid": 897840,
+	"name": "Alien Hunt 3D"
+},
+{
 	"appid": 897870,
 	"name": "Total 15: Soundtrack"
 },
@@ -255753,6 +256045,10 @@
 {
 	"appid": 897940,
 	"name": "High Cats"
+},
+{
+	"appid": 897950,
+	"name": "King of the Dead"
 },
 {
 	"appid": 898030,
@@ -255795,6 +256091,10 @@
 	"name": "Pull Me Out"
 },
 {
+	"appid": 898230,
+	"name": "Past Cure - Soundtrack"
+},
+{
 	"appid": 898240,
 	"name": "Kinkshamed"
 },
@@ -255813,6 +256113,10 @@
 {
 	"appid": 898320,
 	"name": "Synth Ninja"
+},
+{
+	"appid": 898330,
+	"name": "Mission: Demolition - Soundtrack"
 },
 {
 	"appid": 898340,
@@ -255887,6 +256191,10 @@
 	"name": "Zombie"
 },
 {
+	"appid": 898710,
+	"name": "Shadowlings - Official Soundtrack"
+},
+{
 	"appid": 898740,
 	"name": "Digital Resistance"
 },
@@ -255921,6 +256229,10 @@
 {
 	"appid": 899100,
 	"name": "SUM"
+},
+{
+	"appid": 899150,
+	"name": "Audio Editor"
 },
 {
 	"appid": 899210,
@@ -255975,6 +256287,10 @@
 	"name": "Nick Cannon: Stand Up, Don't Shoot"
 },
 {
+	"appid": 899540,
+	"name": "PROTEST"
+},
+{
 	"appid": 899570,
 	"name": "My First Music Workshop"
 },
@@ -256019,6 +256335,10 @@
 	"name": "King-Dom"
 },
 {
+	"appid": 900450,
+	"name": "Panic Room 2 - Gold Pack"
+},
+{
 	"appid": 903070,
 	"name": "War.io : Survival Battle Royale"
 },
@@ -256047,6 +256367,14 @@
 	"name": "Air Threat - Huge Donation"
 },
 {
+	"appid": 903380,
+	"name": "In The Fighting Awesome Soundtrack"
+},
+{
+	"appid": 903381,
+	"name": "In The Fighting Dazzling Wallpapers"
+},
+{
 	"appid": 2028850,
 	"name": "Bioshock Infinite: Columbia's Finest"
 },
@@ -256055,10 +256383,54 @@
 	"name": "conNEcT01"
 },
 {
+	"appid": 903740,
+	"name": "Kings"
+},
+{
 	"appid": 903940,
 	"name": "VirtuaCreature Demo"
 },
 {
+	"appid": 903980,
+	"name": "ANti: Virus Destroyer Demo"
+},
+{
 	"appid": 904130,
 	"name": "Defense: Abominations"
+},
+{
+	"appid": 904350,
+	"name": "Space Hurricane Storm: 2 Edition"
+},
+{
+	"appid": 904440,
+	"name": "Type Defense"
+},
+{
+	"appid": 904600,
+	"name": "Small Sister"
+},
+{
+	"appid": 904740,
+	"name": "东方试闻广纪 ~ Perfect Memento of Touhou Question"
+},
+{
+	"appid": 904790,
+	"name": "Ochkarik"
+},
+{
+	"appid": 904860,
+	"name": "25 Cadre of Death"
+},
+{
+	"appid": 904910,
+	"name": "V nekotorom tsarstve Awesome Soundtrack"
+},
+{
+	"appid": 904911,
+	"name": "V nekotorom tsarstve Dazzling Wallpapers"
+},
+{
+	"appid": 905200,
+	"name": "Anime Dress Up"
 }	]}}}

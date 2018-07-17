@@ -1,5 +1,10 @@
 /*---------------------------------Main Screen CSS---------------------------------------*/
+@font-face {
+    src: url("../font/Abel-Regular.ttf"),
+}
+
 .root{
+	-fx-font-family: "Abel";
 	-fx-background-color: #0e0f11;
 }
 /*****************************************************************************************
@@ -149,6 +154,7 @@
  	-fx-border-width: 0;
  	-fx-background-color: #0e0f11;
  	-fx-text-background-color: #77B901;
+ 	-fx-font: 14.5px "Abel";
 
 }
 
@@ -195,6 +201,7 @@
 .jfx-button{
 	-fx-background-color: #26282d;
 	-fx-text-fill: #77B901;
+	-fx-font: 14.4px "Abel";
 }
 
 /*****************************************************************************************
@@ -207,6 +214,7 @@
   -fx-accent-text: red;
   -fx-border-color: #31333a;
   -fx-padding: 0 0 0 0;
+  -fx-font: 13.5px "Abel";
 }
 
 .menu-item{
@@ -241,6 +249,7 @@
  *****************************************************************************************/
  .menu-bar{
  	-fx-background-color: #0e0f11;
+ 	-fx-font: 13.5px "Abel";
  }
 
  .menu-bar .label{
