@@ -6,7 +6,7 @@ A simple app to manage games you want to play/acquire in the future.
 
 * Downloads the most current steam appids from Steam to choose from (so you can always find brand new games), or you can add your own game if it's not in the list.
 * Date stamps when the game was added to the wish list for easier management.
-* Quick links to open the games' Steam store page (or google for custom pages); links to main game stores.
+* Quick links to open the games' Steam store page (or google, for custom pages); links to main game stores.
 
 ## Preview
 
@@ -28,3 +28,10 @@ A simple app to manage games you want to play/acquire in the future.
 - [ ] Find a way to get tags for games
 - [ ] Convert to a web-based app
 - [ ] Remove some entries from the appid list (non-game service apps with no real downloads, certain DLCs, packs, etc.)
+
+#### Technologies Used
+
+* JAVA
+* JAVAFX
+* CSS
+* HTML
