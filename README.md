@@ -9,7 +9,7 @@ A simple app to manage games you want to play/acquire in the future.
 
 ## Preview
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zwC47Qenxy8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="700" height="394" src="https://www.youtube.com/embed/zwC47Qenxy8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ### ToDo List
 
