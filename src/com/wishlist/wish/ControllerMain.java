@@ -206,7 +206,7 @@ public class ControllerMain implements Initializable{
          */
         searchFieldMy.textProperty().addListener((observable, oldValue, newValue) ->
                 treeView.setPredicate(gameTreeItem -> {
-                    Boolean flag = gameTreeItem.getValue().title.getValue().toLowerCase().contains(newValue.toLowerCase());
+                    Boolean flag = gameTreeItem.getValue().title.getValue().replace("'", "").toLowerCase().contains(newValue.toLowerCase());
                     return flag;
                 }));
 
@@ -217,7 +217,7 @@ public class ControllerMain implements Initializable{
          */
         searchField.textProperty().addListener((observable, oldValue, newValue) ->
                 treeViewAll.setPredicate(gameTreeItem -> {
-                    Boolean flag = gameTreeItem.getValue().title.getValue().toLowerCase().contains(newValue.toLowerCase());
+                    Boolean flag = gameTreeItem.getValue().title.getValue().replace("'", "").toLowerCase().contains(newValue.toLowerCase());
                     return flag;
                 }));
 
@@ -240,7 +240,7 @@ public class ControllerMain implements Initializable{
             TreeTableColumn<MyGame, ?> col1 = treeView.getColumns().get(treeView.getColumns().size()-1);
             TreeTableColumn<MyGame, ?> col2 = treeView.getColumns().get(treeView.getColumns().size()-2);
             col1.setPrefWidth(treeView.getWidth() / 4.4 );
-            col2.setPrefWidth(treeView.getWidth() / 1.3 );
+            col2.setPrefWidth(treeView.getWidth() / 1.32 );
         });
 
         /**

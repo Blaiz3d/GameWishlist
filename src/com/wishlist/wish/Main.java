@@ -65,9 +65,10 @@ public class Main extends Application {
     }
 }
 //Todos
-//todo: Add a custom font
+
 
 //Bugfixes
+//todo: Center align date added
 //todo: Remove context menu from the headers of TreeTableViews
 //todo: Find a way to unfocus context menus when not hovering over context menu
 

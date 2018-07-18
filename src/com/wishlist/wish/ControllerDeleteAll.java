@@ -35,7 +35,7 @@ public class ControllerDeleteAll implements Initializable {
     @FXML
     void confirm(ActionEvent event)
     {
-        int count = treeView.getExpandedItemCount();
+        int count = getGamesMy().size();
 
         for (int i = 0; i < count; i++)
         {
