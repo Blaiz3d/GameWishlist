@@ -9,7 +9,9 @@ A simple app to manage games you want to play/acquire in the future.
 
 ## Preview
 
-# ToDo List
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zwC47Qenxy8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+### ToDo List
 
 - [x] Add custom game support
 - [x] Download steam appid list from Steam
@@ -18,7 +20,7 @@ A simple app to manage games you want to play/acquire in the future.
 - [x] Add quick links to main game stores
 - [ ] Add game images alongside the titles
 
-# Potential ToDos
+### Potential ToDos
 
 - [ ] Find a way to get release dates for games
 - [ ] Find a way to get ratings for games
