@@ -6,6 +6,7 @@ A simple app to manage games you want to play/acquire in the future.
 
 * Downloads the most current steam appids from Steam to choose from (so you can always find brand new games), or you can add your own game if it's not in the list.
 * Date stamps when the game was added to the wish list for easier management.
+* Quick links to open the games Steam store page (or google for custom pages); links to main game stores.
 
 ## Preview
 
